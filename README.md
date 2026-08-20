@@ -41,15 +41,15 @@ structures traced through dense volume are a ten-year-old industry:
 
 ## The headline table
 
-Copied from [oneshot/HELDOUT_RESULTS.md](oneshot/HELDOUT_RESULTS.md), which
+Copied from [pipeline/HELDOUT_RESULTS.md](pipeline/HELDOUT_RESULTS.md), which
 `heldout_summary.py` generates from the shipped run reports; `verify.py`
 regenerates it and diffs. Two exams, two frozen forms, each held-out
 generation touched exactly once: v1 was frozen
-([oneshot/FREEZE_2026-08-14.md](oneshot/FREEZE_2026-08-14.md)) before the
+([protocol/FREEZE_2026-08-14.md](protocol/FREEZE_2026-08-14.md)) before the
 first held-out generation was opened (2026-08-15); the learned fusion v5lu was
 declared — form in ABLATION_V5.md, composition, training and reading rule in
 PROTOCOL §6, freeze in
-[oneshot/FREEZE_2026-08-19.md](oneshot/FREEZE_2026-08-19.md) — before the
+[protocol/FREEZE_2026-08-19.md](protocol/FREEZE_2026-08-19.md) — before the
 second, fresh held-out generation (seed 20260819) even existed, and examined
 once (2026-08-20), after which the held-out v2 budget is spent.
 
@@ -130,7 +130,7 @@ it lifts even the naive baselines by an order of magnitude (raw vs atlas
 columns above). The atlas is thereby part of the corpus definition, declared
 before any held-out run (PROTOCOL §4), and it is threshold-dependent — the
 sensitivity analysis
-([oneshot/detector/ATLAS_SENSITIVITY.md](oneshot/detector/ATLAS_SENSITIVITY.md))
+([pipeline/detector/ATLAS_SENSITIVITY.md](pipeline/detector/ATLAS_SENSITIVITY.md))
 says the published 5 vx map cannot be treated as *the* defect map: publish a
 range or the threshold-stable core (15 of the top-100 clusters).
 
@@ -138,9 +138,9 @@ range or the threshold-stable core (15 of the top-100 clusters).
 
 Four attempts to add a fourth signal or rebalance the three under rank-based
 fusion, all evaluated by paired bootstrap on the same resamples, none shipped
-([ABLATION_V2](oneshot/detector/ABLATION_V2.md),
-[V3](oneshot/detector/ABLATION_V3.md),
-[V4](oneshot/detector/ABLATION_V4.md)):
+([ABLATION_V2](pipeline/detector/ABLATION_V2.md),
+[V3](pipeline/detector/ABLATION_V3.md),
+[V4](pipeline/detector/ABLATION_V4.md)):
 
 - **front counting** (v2): mechanism works (front evidence covers 64.6% of
   merger windows, 0% of hole windows), ranking does not move (ΔAP −0.009, in
@@ -163,14 +163,14 @@ fusion, all evaluated by paired bootstrap on the same resamples, none shipped
 ### Learned fusion broke it — on CPU
 
 That calibration turned out to cost a logistic regression, not a GPU
-([ABLATION_V5](oneshot/detector/ABLATION_V5.md), protocol committed before
+([ABLATION_V5](pipeline/detector/ABLATION_V5.md), protocol committed before
 training): **v5lu, dev AP 0.8558 [0.816–0.892] vs v1's 0.6442 — ΔAP +0.211
 [+0.19–+0.24], ΔM +0.216, ΔH +0.220, Δplausible +0.147, all significant,
 with no significant loss on any family** — the first and only iteration to
 pass the declared shipping rule. Before any held-out spending, the result
 survived eight declared checks
-([VERIFY_V5](oneshot/detector/VERIFY_V5.md),
-[VERIFY_V8](oneshot/detector/VERIFY_V8.md)): label permutation (p95 0.794 <
+([VERIFY_V5](pipeline/detector/VERIFY_V5.md),
+[VERIFY_V8](pipeline/detector/VERIFY_V8.md)): label permutation (p95 0.794 <
 0.82 — the features cannot fake the gain without the labels), a hard block
 split (0.8578), λ-regularization sweeps (shifts ≤ 0.002), attribution
 (per-family intercepts alone give 0.8255 — calibration is the load-bearing
@@ -186,7 +186,7 @@ whole construction is the exam table above.
 ### The next wall is generation, not fusion — ceiling ≈ 0.905
 
 With fusion calibrated, the deficit moved and was measured where it landed
-([coverage breakdown in ABLATION_V5](oneshot/detector/ABLATION_V5.md),
+([coverage breakdown in ABLATION_V5](pipeline/detector/ABLATION_V5.md),
 regenerable from `runs/topo/coverage_breakdown_paris4.json`): the v1 pool
 covers 199/232 injections, the union pool 210/232 = 0.905, and v5lu's
 recall@N (0.853) sits essentially at that pool ceiling. Of the 22 dev
@@ -194,18 +194,18 @@ injections with no candidate anywhere, 17 are mergers (14 locally
 plausible) — the known blind spot where the prediction is silent. Three
 declared assaults on the ceiling all failed by their own pre-registered
 rules and ship as measured boundaries: **v6** (relaxed floors + 14
-features, [ABLATION_V6](oneshot/detector/ABLATION_V6.md)) — significant
+features, [ABLATION_V6](pipeline/detector/ABLATION_V6.md)) — significant
 losses everywhere except H; the floors carried candidate granularity, not
 noise, and relaxing them shrank the prox pool 102 → 96 by cluster gluing;
 **v6s/v6r** (separate mass-vs-clustering thresholds,
-[ABLATION_V6S](oneshot/detector/ABLATION_V6S.md); both are configurations of
+[ABLATION_V6S](pipeline/detector/ABLATION_V6S.md); both are configurations of
 `detect_v6s.py` rather than separate files — v6r is the
 restricted-connectivity one, flags `v6r_row_gap` and `v6r_diagonals`) —
 de-glued the clusters
 (pool 139) yet lifted the union ceiling only 210 → 211/232, ΔAP +0.0018
 n.s.: the 17 uncovered mergers have no prox signal even at threshold 0.25;
 **v7** (through-winding pair features against the declared prox ghost,
-[ABLATION_V7](oneshot/detector/ABLATION_V7.md)) — the pairs exist as a
+[ABLATION_V7](pipeline/detector/ABLATION_V7.md)) — the pairs exist as a
 phenomenon (53/66 carry exactly one true candidate) and move the target
 family by exactly 0.000. The ceiling stands as the boundary of the existing
 generation channels.
@@ -215,9 +215,9 @@ generation channels.
 Synthetic injections risk teaching the detector an injection artifact, so the
 protocol demands real labels (PROTOCOL §5). Every real labelling buildable
 without GPU was built and run against the frozen detector
-([oneshot/real_errors/CORPUS.md](oneshot/real_errors/CORPUS.md) — every rule
+([pipeline/real_errors/CORPUS.md](pipeline/real_errors/CORPUS.md) — every rule
 and constant declared before the corresponding run;
-[RESULTS.md](oneshot/real_errors/RESULTS.md)):
+[RESULTS.md](pipeline/real_errors/RESULTS.md)):
 
 | corpus | labels | frozen channel | AP | random base | verdict |
 |---|---|---|---|---|---|
@@ -283,7 +283,7 @@ address complementarity, not ranking gain.**
 
 - The 124 zones of double evidence (models disagree AND the mesh detector
   fires) were **classified by hand, all of them**
-  ([ZONES_124.md](oneshot/real_errors/ZONES_124.md)): 1 real error (0.8%,
+  ([ZONES_124.md](pipeline/real_errors/ZONES_124.md)): 1 real error (0.8%,
   low confidence), 91 model artifacts (73.4%), 32 false alarms (25.8%).
 - The corpus-B by-product stands on its own: **production meshes of 2026
   diverge from the 2023 human-verified reference on 18.8% of covered nodes;
@@ -301,10 +301,10 @@ the real limits of fusing them.
 
 All 57 zones the frozen support channel credited on corpus B were
 classified by hand against criteria declared before the first card was
-rendered ([ZONE_CRITERIA_B.md](oneshot/real_errors/ZONE_CRITERIA_B.md),
-labels in [zone_labels_b.csv](oneshot/real_errors/zone_labels_b.csv),
+rendered ([ZONE_CRITERIA_B.md](pipeline/real_errors/ZONE_CRITERIA_B.md),
+labels in [zone_labels_b.csv](pipeline/real_errors/zone_labels_b.csv),
 table generated by `summarize_zones_b.py` into
-[ZONES_SUPPORT_B.md](oneshot/real_errors/ZONES_SUPPORT_B.md)):
+[ZONES_SUPPORT_B.md](pipeline/real_errors/ZONES_SUPPORT_B.md)):
 
 | class | zones | share |
 |---|---|---|
@@ -316,7 +316,7 @@ table generated by `summarize_zones_b.py` into
 The majority class is the epoch systematics the 18.8% table above predicts;
 the 4 single-slab candidates then went through two declared verification
 protocols (both committed before rendering,
-[RESULTS.md](oneshot/real_errors/RESULTS.md)):
+[RESULTS.md](pipeline/real_errors/RESULTS.md)):
 
 - **independent axial slabs** on other zone rows (`confirm_zones_b.py`):
   none of the four confirmed — the readable independent windows all read
@@ -341,7 +341,7 @@ this benchmark.
 The declared follow-up (`collect_censusB_zones.py`, protocol in
 ZONE_CRITERIA_B.md) was then measured: all **121 uncredited** B zones were
 classified by the same blind-batch + control procedure
-([ZONES_CENSUS_B.md](oneshot/real_errors/ZONES_CENSUS_B.md)) and yielded
+([ZONES_CENSUS_B.md](pipeline/real_errors/ZONES_CENSUS_B.md)) and yielded
 **0/121 real-error candidates [Wilson 95% 0.0–3.1%] against 4/57 (7.0%)
 among the support-credited zones — Fisher's exact two-sided p = 0.0098**.
 For the first time the comparison base comes from the same corpus, and it
@@ -403,7 +403,7 @@ crossed; the band does not). That is a defensible rule, applied consistently
 candidates for someone with volume access to settle, not as findings. The
 shipped address list is therefore **1 verified real 2026 tracing error + 4
 candidates**, each with segment, row, column and band evidence in
-[RESULTS.md](oneshot/real_errors/RESULTS.md) and the band label CSVs.
+[RESULTS.md](pipeline/real_errors/RESULTS.md) and the band label CSVs.
 
 ## Detect, then correct?
 
@@ -494,12 +494,12 @@ Full (network, hours) — the pipeline end to end: fetch public meshes and
 predictions, rebuild both synthetic corpora from manifest seeds, re-run the
 frozen detector, baselines, metric, real-corpus builders and evaluations. The
 commands, in dependency order, with expected costs, are in
-[oneshot/PROTOCOL.md](oneshot/PROTOCOL.md) and each script's docstring (whose
+[protocol/PROTOCOL.md](protocol/PROTOCOL.md) and each script's docstring (whose
 `Usage:` paths need one substitution — [READING_GUIDE.md](READING_GUIDE.md)
 states it); every
 script is resumable via per-segment checkpoints, and the interruptions the
 published runs actually hit are recorded in
-[FREEZE](oneshot/FREEZE_2026-08-14.md) inserts rather than cleaned up.
+[FREEZE](protocol/FREEZE_2026-08-14.md) inserts rather than cleaned up.
 
 `requirements.txt` adds three packages for the full path, and not all three
 are pinned on equal evidence — the file itself says which is which, per
@@ -524,13 +524,13 @@ CPU only, public data, no credentials.
   slabs and chain-normal bands likewise): rendered from shipped maps by
   `render_zones.py` / `render_zones_b.py` / `confirm_zones_b.py` /
   `band_zones_b.py`; the classifications they fed are shipped in full
-  ([ZONES_124.md](oneshot/real_errors/ZONES_124.md),
-  [zone_labels.csv](oneshot/real_errors/zone_labels.csv),
-  [ZONES_SUPPORT_B.md](oneshot/real_errors/ZONES_SUPPORT_B.md),
-  [zone_labels_b.csv](oneshot/real_errors/zone_labels_b.csv), the
+  ([ZONES_124.md](pipeline/real_errors/ZONES_124.md),
+  [zone_labels.csv](pipeline/real_errors/zone_labels.csv),
+  [ZONES_SUPPORT_B.md](pipeline/real_errors/ZONES_SUPPORT_B.md),
+  [zone_labels_b.csv](pipeline/real_errors/zone_labels_b.csv), the
   confirmation and band label CSVs under `runs/topo/real_paris4/`).
 - **A GPU pass** (spiral-fitting corpus C): out of scope by declared gate
-  ([oneshot/UNTRIED.md](oneshot/UNTRIED.md) keeps the full list of roads
+  ([protocol/UNTRIED.md](protocol/UNTRIED.md) keeps the full list of roads
   not taken, with the conditions under which each would be). The learned
   fusion once listed here turned out not to need a GPU and ships above.
 
@@ -545,7 +545,7 @@ CPU only, public data, no credentials.
   never generated.
 - **The rect channel dilutes H.** Adding channels costs the hole family
   (a lesson reproduced three times — see
-  [oneshot/UNTRIED.md](oneshot/UNTRIED.md)); the shipped fusion accepts that
+  [protocol/UNTRIED.md](protocol/UNTRIED.md)); the shipped fusion accepts that
   trade, and the quota ablation shows what restoring H costs elsewhere.
 - **The atlas is threshold-dependent** (verdict above): mesh-anomaly maps at
   a single contact threshold are not publishable as *the* defect map.

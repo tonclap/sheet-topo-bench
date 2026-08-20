@@ -44,8 +44,8 @@ for _stream in (sys.stdout, sys.stderr):      # cp1251 consoles vs Δ in labels
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RUNS = os.path.join(HERE, 'runs', 'topo')
-sys.path.insert(0, os.path.join(HERE, 'oneshot', 'detector'))
-sys.path.insert(0, os.path.join(HERE, 'oneshot', 'real_errors'))
+sys.path.insert(0, os.path.join(HERE, 'pipeline', 'detector'))
+sys.path.insert(0, os.path.join(HERE, 'pipeline', 'real_errors'))
 
 FAILURES = []
 
@@ -146,7 +146,7 @@ def regenerate(tmp):
     run_module('heldout_summary', ['--topo', RUNS, '--out', out],
                patch_injection_info=True)
     compare_regen('HELDOUT_RESULTS.md', out,
-                  os.path.join(HERE, 'oneshot', 'HELDOUT_RESULTS.md'))
+                  os.path.join(HERE, 'pipeline', 'HELDOUT_RESULTS.md'))
 
     for module, report, shipped in (
             ('ablation_summary', 'detector_v2_paris4.json', 'ABLATION_V2.md'),
@@ -158,7 +158,7 @@ def regenerate(tmp):
         run_module(module, ['--report', os.path.join(RUNS, report),
                             '--out', out], patch_injection_info=True)
         compare_regen(shipped, out,
-                      os.path.join(HERE, 'oneshot', 'detector', shipped))
+                      os.path.join(HERE, 'pipeline', 'detector', shipped))
 
     for module, report, shipped in (
             ('ablation_summary_v5', 'detector_v5_paris4.json',
@@ -173,7 +173,7 @@ def regenerate(tmp):
         run_module(module, ['--report', os.path.join(RUNS, report),
                             '--out', out], patch_injection_info=True)
         compare_lines(shipped, out,
-                      os.path.join(HERE, 'oneshot', 'detector', shipped))
+                      os.path.join(HERE, 'pipeline', 'detector', shipped))
 
     # VERIFY_V5.md / VERIFY_V8.md: rendered by pure functions of their shipped
     # reports, so they regenerate and byte-compare like the rest.
@@ -185,7 +185,7 @@ def regenerate(tmp):
         with open(out, 'w', encoding='utf-8', newline='\n') as f:
             f.write('\n'.join(module.render_md(load(report_name))))
         compare_regen(shipped, out,
-                      os.path.join(HERE, 'oneshot', 'detector', shipped))
+                      os.path.join(HERE, 'pipeline', 'detector', shipped))
 
     # The three by-eye zone tables: the label CSVs and the zones_meta.json
     # provenance sidecars are all shipped, so the tables regenerate and
@@ -198,7 +198,7 @@ def regenerate(tmp):
             ('summarize_zones_b', 'zone_labels_census_b.csv',
              'zones_png_census_b', 'ZONES_CENSUS_B.md')):
         out = os.path.join(tmp, shipped)
-        argv = ['--labels', os.path.join(HERE, 'oneshot', 'real_errors',
+        argv = ['--labels', os.path.join(HERE, 'pipeline', 'real_errors',
                                          labels_name),
                 '--meta', os.path.join(RUNS, 'real_paris4', meta_dir,
                                        'zones_meta.json'),
@@ -207,7 +207,7 @@ def regenerate(tmp):
             argv += ['--n-zones', '178']
         run_module(module, argv)
         compare_regen(shipped, out,
-                      os.path.join(HERE, 'oneshot', 'real_errors', shipped))
+                      os.path.join(HERE, 'pipeline', 'real_errors', shipped))
 
     for eval_name, ci_name in (
             (os.path.join('real_paris4', 'eval.json'),
@@ -456,11 +456,11 @@ def _fisher_two_sided(a, b, c, d):
 
 
 def census_checks():
-    with open(os.path.join(HERE, 'oneshot', 'real_errors',
+    with open(os.path.join(HERE, 'pipeline', 'real_errors',
                            'zone_labels_census_b.csv'),
               encoding='utf-8-sig') as f:
         census = [r['class'] for r in csv.DictReader(f)]
-    with open(os.path.join(HERE, 'oneshot', 'real_errors',
+    with open(os.path.join(HERE, 'pipeline', 'real_errors',
                            'zone_labels_b.csv'), encoding='utf-8-sig') as f:
         credited = [r['class'] for r in csv.DictReader(f)]
     c_real, n_census = census.count('real_error'), len(census)
@@ -640,7 +640,7 @@ def literal_checks():
         ('epoch 2023', f"on {epoch['2023']['rate'] * 100:.1f}%"),
     ]
 
-    with open(os.path.join(HERE, 'oneshot', 'real_errors', 'zone_labels.csv'),
+    with open(os.path.join(HERE, 'pipeline', 'real_errors', 'zone_labels.csv'),
               encoding='utf-8-sig') as f:
         labels = [row['class'] for row in csv.DictReader(f)]
     n = len(labels)
@@ -664,7 +664,7 @@ def literal_checks():
                    f"{atlas['top_k']} clusters)"))
 
     # ------------------------- corpus-B zones by eye + the verification chain
-    with open(os.path.join(HERE, 'oneshot', 'real_errors',
+    with open(os.path.join(HERE, 'pipeline', 'real_errors',
                            'zone_labels_b.csv'), encoding='utf-8-sig') as f:
         blabels = [row['class'] for row in csv.DictReader(f)]
     nb = len(blabels)
