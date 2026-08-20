@@ -1,0 +1,30 @@
+{
+ "absolute_at_floor_no_rule": {
+  "note": "no pristine subtraction — the deployability diagnostic (TOPO-049 lesson)",
+  "windows_hit": 8
+ },
+ "by_type": {
+  "M": 0,
+  "S": 0
+ },
+ "decision_build_channel": false,
+ "declaration": "probe_defect.py header, committed before the run (TOPO-052, twenty-eighth session)",
+ "floor_main": 0.0,
+ "hit_ids": [],
+ "n_windows": 22,
+ "probe": "volume disclination benefit (U-022 stage 2): 22 uncovered windows, node evidence strictly D > stage-1 pristine q99, probe_ct surplus construction, empty atlas",
+ "rule": "channel worth building iff >= 8 of 22 windows carry a surviving cluster",
+ "sensitivity_no_rule": {
+  "0.25/2@q99": 3,
+  "0.25/3@q99": 5,
+  "0.25/4@q99": 4,
+  "0.5/2@q99": 0,
+  "0.5/4@q99": 1,
+  "0.75/2@q99": 0,
+  "0.75/3@q99": 0,
+  "0.75/4@q99": 0,
+  "main@q95": 0,
+  "main@q99_5": 0
+ },
+ "windows_hit": 0
+}

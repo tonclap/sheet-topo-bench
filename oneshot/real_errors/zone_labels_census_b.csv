@@ -1,0 +1,122 @@
+id,class,confidence,note,note_en
+Z0000,epoch_drift,high,Узлы идут параллельно banner по тому же листу; сход отсутствует,Nodes run parallel to the banner on the same sheet; no departure
+Z0003,epoch_drift,high,Три окна показывают устойчивый параллельный сдвиг вдоль одного листа,Three windows show a steady parallel shift along a single sheet
+Z0004,epoch_drift,low,Узкая зона; узлы близко к banner с небольшим систематическим сдвигом,Narrow zone; nodes close to the banner with a small systematic offset
+Z0008,banner_edge,low,Высокий z~16500; фон разрежен; вероятна высотная граница покрытия banner,High z~16500; background sparse; likely the height limit of banner coverage
+Z0010,epoch_drift,low,Волнистый лист; узлы следуют кривой banner с постоянным смещением [контроль: класс подтверждён],Wavy sheet; nodes follow the banner curve with a constant offset [control: class confirmed]
+Z0011,epoch_drift,low,Разреженный фон; узлы параллельны banner без явного схода с листа,Sparse background; nodes parallel to the banner with no clear departure from the sheet
+Z0012,banner_edge,low,Единственное окно; тёмный разреженный фон на z~16568 как у Z0008,"A single window; dark sparse background at z~16568, as in Z0008"
+Z0013,epoch_drift,high,Широкая полоса красных/оранжевых узлов вдоль плотного непрерывного banner [контроль: класс подтверждён],A wide band of red/orange nodes along a dense continuous banner [control: class confirmed]
+Z0014,banner_edge,low,Складчатый лист; banner редеет справа где идёт цепочка узлов,"Folded sheet; the banner thins on the right, where the chain of nodes runs"
+Z0015,epoch_drift,high,Волнистый лист отслеживается стабильно; узлы держат сдвиг вдоль кривой,The wavy sheet is tracked stably; the nodes hold their offset along the curve
+Z0017,epoch_drift,low,плотный непрерывный banner; узлы идут параллельно листу без схода,dense continuous banner; nodes run parallel to the sheet with no departure
+Z0020,epoch_drift,low,контроль: цепь вдоль диагонального листа; banner на той же ветви; пересечение — иллюзия наклона,control: chain along a diagonal sheet; banner on the same branch; the crossing is an illusion of the tilt
+Z0022,epoch_drift,low,цепочка узлов повторяет кривизну листа; banner плотный непрерывный,the chain of nodes follows the curvature of the sheet; banner dense and continuous
+Z0025,epoch_drift,low,узлы идут вдоль локального листа горизонтально; banner не обрывается,nodes run horizontally along the local sheet; the banner does not break off
+Z0028,epoch_drift,low,широкое облако banner-точек; расхождение не локальный очаг,a broad cloud of banner points; the divergence is not a local focus
+Z0032,false_alarm,low,узлы близко к трассе на фоне регулярных листов; структура нечёткая,nodes close to the trace against regular sheets; the structure is indistinct
+Z0033,false_alarm,low,узлы плотно у отметки; banner непрерывен обеих окнах; сход не виден,nodes crowd at the marker; the banner is continuous in both windows; no departure visible
+Z0034,false_alarm,low,узлы разрежены и слабо выражены; banner плотный без обрыва,nodes sparse and weakly expressed; banner dense with no break
+Z0035,banner_edge,low,banner редеет в левой части кадра ближе к отметке зоны,"the banner thins in the left part of the frame, nearer the zone marker"
+Z0036,epoch_drift,low,густая параллельная текстура; узлы идут вдоль соседних листов,dense parallel texture; the nodes run along neighbouring sheets
+Z0037,epoch_drift,low,Banner непрерывен в обоих окнах узлы идут параллельно листу со сдвигом,"Banner continuous in both windows, nodes run parallel to the sheet with an offset"
+Z0038,epoch_drift,low,Красные узлы широкой полосой не локальный очаг banner плотный,"Red nodes in a wide band, not a local focus, banner dense"
+Z0041,false_alarm,low,Узлы почти на трассе banner явного схода или сдвига не видно,"Nodes almost on the trace, no clear banner departure or offset visible"
+Z0043,false_alarm,low,Локальный кластер у сгиба но banner плотный непрерывный без обрыва,"A local cluster at the bend, but the banner is dense and continuous with no break"
+Z0044,false_alarm,low,Узлы у изгиба трассы banner цел выраженного признака нет,"Nodes at a bend of the trace, banner intact, no pronounced sign"
+Z0045,epoch_drift,low,Узлы разбросаны широкой полосой вдоль листов banner непрерывен,"Nodes scattered in a wide band along the sheets, banner continuous"
+Z0047,false_alarm,low,Компактный узел у порога banner плотный без обрыва и сдвига,"A compact node at the threshold, banner dense with no break and no offset"
+Z0049,epoch_drift,low,Туго свёрнутая складка узлы разбросаны без явного схода с листа,"A tightly rolled fold, nodes scattered with no clear departure from the sheet"
+Z0050,epoch_drift,low,Узлы смещены параллельно трассе в обоих окнах banner плотный,"Nodes displaced parallel to the trace in both windows, banner dense"
+Z0054,banner_edge,low,В правом окне banner редеет к низу кадра узлы упираются в разрежение,"In the right window the banner thins towards the bottom of the frame, the nodes run into the thinning"
+Z0055,false_alarm,low,Banner плотный и совпадает с трассой; расхождение на грани порога,Banner dense and coincident with the trace; the divergence sits on the threshold
+Z0056,banner_edge,high,Banner редеет и обрывается прямо у узлов зоны; трасса на своём листе,Banner thins and breaks off right at the zone nodes; the trace stays on its own sheet
+Z0059,epoch_drift,low,Ряд узлов идёт параллельно плотному banner со сдвигом; широкая полоса не локальный очаг,"A row of nodes runs parallel to the dense banner with an offset; a wide band, not a local focus"
+Z0060,banner_edge,high,Banner полностью пропадает ниже магенты; трасса продолжает свой лист без banner-покрытия,Banner disappears entirely below the magenta; the trace continues on its sheet with no banner coverage
+Z0061,false_alarm,low,Узлы смешаны зелёный/оранжевый; banner плотный и близко к трассе на всём окне,Nodes mixed green/orange; banner dense and close to the trace across the whole window
+Z0062,epoch_drift,low,контроль: узлы держат рваную полосу листа; banner на той же полосе; схода нет,control: the nodes hold a ragged band of the sheet; banner on the same band; no departure
+Z0064,false_alarm,low,Плотные параллельные листы; banner-точки ложатся прямо на трассу узлов зоны,Dense parallel sheets; the banner points land directly on the trace of the zone nodes
+Z0065,epoch_drift,high,Колонка узлов трассы стоит на соседнем листе от плотной колонки banner; сдвиг по всей высоте,The column of trace nodes stands on the sheet next to the dense banner column; the offset runs the full height
+Z0067,epoch_drift,high,Ряд оранжевых узлов идёт параллельно плотному banner со смещением на весь кадр,"A row of orange nodes runs parallel to the dense banner, displaced across the whole frame"
+Z0068,banner_edge,high,Banner исчезает в нижней половине окна у зоны; структура листов продолжается без него,Banner vanishes in the lower half of the window at the zone; the sheet structure continues without it
+Z0069,epoch_drift,low,узкие параллельные ленты; отклонение похоже на систематический сдвиг а не сход,narrow parallel ribbons; the deviation looks like a systematic offset rather than a departure
+Z0070,false_alarm,low,сложный узел трасс у завитка; сход с листа не читается уверенно,a complex knot of traces at a curl; a departure from the sheet cannot be read with confidence
+Z0071,false_alarm,low,banner и трасса почти совпадают; явного дефекта не видно,banner and trace almost coincide; no clear defect visible
+Z0072,epoch_drift,low,ряд узлов пересекает плотные параллельные ленты; похоже на смещение вписывания,a row of nodes crosses the dense parallel ribbons; looks like a fitting offset
+Z0075,epoch_drift,low,очень узкие ленты; локальный скачок не отличим от систематического сдвига,very narrow ribbons; a local jump is indistinguishable from a systematic offset
+Z0076,false_alarm,low,рядом артефакт скана белое пятно; чтение ненадёжно явного скачка нет [контроль: класс подтверждён],"a scan artifact nearby, a white blob; the reading is unreliable, no clear jump [control: class confirmed]"
+Z0077,epoch_drift,high,узлы стабильно параллельны banner со сдвигом в обоих окнах; схода нет,nodes steadily parallel to the banner with an offset in both windows; no departure
+Z0078,epoch_drift,low,похожий на слияние изгиб листа но уверенности в сходе недостаточно,"a merger-like bend of the sheet, but confidence in a departure is insufficient"
+Z0079,epoch_drift,low,плотный вертикальный стек лент; узлы близко но со сдвигом к banner,a dense vertical stack of ribbons; nodes close to the banner but offset from it
+Z0080,epoch_drift,low,узлы идут через зону переплетения лент; чёткого одиночного схода не видно,the nodes run through a zone where ribbons interweave; no clear single departure visible
+Z0081,epoch_drift,low,контроль: цепь вдоль крутого диагонального листа; banner рядом; схода нет,control: chain along a steep diagonal sheet; banner alongside; no departure
+Z0083,epoch_drift,low,узлы идут вдоль листа со сдвигом; banner плотный без обрыва,nodes run along the sheet with an offset; banner dense with no break
+Z0084,false_alarm,low,узлы плотно у трассы; одно узкое окно малоинформативно для вывода,nodes crowd at the trace; a single narrow window is too uninformative to conclude
+Z0085,epoch_drift,low,контроль: цепь параллельна наклонным листам; чистого пересечения нет,control: the chain is parallel to the tilted sheets; there is no clean crossing
+Z0086,epoch_drift,low,узлы вдоль очень плотно упакованных листов без явного скачка,nodes along very tightly packed sheets with no clear jump
+Z0088,epoch_drift,low,узлы разбросаны широкой полосой вдоль тренда листов не локально,"nodes scattered in a wide band along the trend of the sheets, not locally"
+Z0089,false_alarm,low,тесный локальный кластер в очень плотной пачке листов неоднозначен,a tight local cluster inside a very dense bundle of sheets is ambiguous
+Z0092,false_alarm,low,тесный кластер узлов среди плотных листов трудно читаем однозначно,"a tight cluster of nodes among dense sheets, hard to read unambiguously"
+Z0093,epoch_drift,low,узлы вытянуты широкой полосой по диагонали параллельно соседним листам,nodes stretched in a wide diagonal band parallel to the neighbouring sheets
+Z0094,epoch_drift,low,аномальная слитная текстура справа но явного схода с листа не видно,"an anomalous fused texture on the right, but no clear departure from the sheet visible"
+Z0096,false_alarm,low,Пинч сближения листов; banner сплошной; чёткого схода узлов не видно,A pinch where the sheets converge; banner solid; no clear departure of the nodes visible
+Z0097,epoch_drift,low,Узлы у листа с banner рядом параллельно; один срез не даёт уверенности,Nodes by the sheet with the banner alongside and parallel; one slice does not give confidence
+Z0099,epoch_drift,high,Цепочка узлов идёт параллельно banner по одному листу на всех трёх срезах,A chain of nodes runs parallel to the banner on one sheet across all three slices
+Z0100,false_alarm,low,Разрозненные изолированные узлы в петле листов; связного рисунка ошибки нет,Scattered isolated nodes inside a loop of sheets; no coherent error pattern
+Z0101,epoch_drift,high,Цепочка узлов параллельна banner на обоих срезах без схода с листа,"The chain of nodes is parallel to the banner on both slices, with no departure from the sheet"
+Z0102,false_alarm,low,Минимум узлов зоны; banner сплошной; структуры ошибки не видно,A bare minimum of zone nodes; banner solid; no error structure visible
+Z0103,epoch_drift,high,Плотная цепочка узлов идёт вдоль листа параллельно banner со сдвигом,A dense chain of nodes runs along the sheet parallel to the banner with an offset
+Z0105,false_alarm,low,Сложная складка листов; узлы разрозненные без чёткого схода,A complex fold of the sheets; nodes scattered with no clear departure
+Z0107,false_alarm,low,Узлы у пересечения листов; banner плотный без обрыва и явного скачка,Nodes at a crossing of sheets; banner dense with no break and no clear jump
+Z0113,false_alarm,low,Единичный узел зоны; прочие маркеры вне зоны; чёткого сигнала нет,A single zone node; the other markers are outside the zone; no clear signal
+Z0115,epoch_drift,low,контроль: вертикальная цепь вдоль вертикального листа; banner со сдвигом рядом,control: a vertical chain along a vertical sheet; the banner alongside with an offset
+Z0119,false_alarm,low,Маркеры внутри плотного banner без схода или сдвига; на грани порога,Markers inside a dense banner with no departure or offset; on the threshold
+Z0120,epoch_drift,low,контроль: вертикальная цепь вдоль вертикального листа; поперёк — иллюзия,control: a vertical chain along a vertical sheet; the crosswise look is an illusion
+Z0121,epoch_drift,high,Трасса параллельна листу со сдвигом; широкая полоса а не локальный очаг,The trace is parallel to the sheet with an offset; a wide band rather than a local focus
+Z0122,banner_edge,low,Banner редеет и пропадает у зоны; расхождение создано обрывом покрытия эталона,Banner thins and disappears at the zone; the divergence is created by the break in reference coverage
+Z0123,epoch_drift,high,Широкая горизонтальная полоса расхождения в обеих панелях; banner плотный непрерывный,A wide horizontal band of divergence in both panels; banner dense and continuous
+Z0124,epoch_drift,low,Узел на стыке лент неоднозначен; сомнение трактуем против real_error,The node at the junction of ribbons is ambiguous; doubt is read against real_error
+Z0125,epoch_drift,high,Систематический параллельный сдвиг вдоль листа виден в обеих панелях зоны,A systematic parallel shift along the sheet is visible in both panels of the zone
+Z0126,false_alarm,low,контроль: 3 разрозненных узла в плотных диагоналях; связной структуры нет,control: 3 scattered nodes among dense diagonals; no coherent structure
+Z0127,epoch_drift,low,контроль: вертикальная цепь вдоль листа; banner на соседней полосе в пределах 10 vx,"control: a vertical chain along the sheet; the banner on the adjacent band, within 10 vx"
+Z0128,false_alarm,low,узлы у зоны близко к banner; явного схода с листа не видно,nodes at the zone are close to the banner; no clear departure from the sheet visible
+Z0129,false_alarm,low,banner плотный и непрерывный; узлы почти совпадают с трассой,banner dense and continuous; the nodes almost coincide with the trace
+Z0131,epoch_drift,low,цепочка узлов идёт параллельно плотному banner на том же листе,the chain of nodes runs parallel to the dense banner on the same sheet
+Z0132,epoch_drift,low,узлы смещены вдоль изгиба листа; явного скачка на другой лист нет,nodes displaced along the bend of the sheet; no clear jump to another sheet
+Z0134,banner_edge,low,во втором окне banner заметно редеет у самой зоны сверху,in the second window the banner thins noticeably right above the zone
+Z0135,false_alarm,low,зона в турбулентном сгибе; чёткого схода или сдвига не разглядеть,the zone sits in a turbulent bend; no clear departure or offset can be made out
+Z0137,false_alarm,low,orange и cyan трассы почти совпадают; узлы на грани порога,the orange and cyan traces almost coincide; the nodes are on the threshold
+Z0138,false_alarm,low,очень плотное плетение листов; окно нечитаемо для уверенного вывода,a very dense weave of sheets; the window is unreadable for a confident conclusion
+Z0139,epoch_drift,low,цепочка узлов идёт параллельным сдвигом вдоль соседнего banner-листа,the chain of nodes runs with a parallel offset along the neighbouring banner sheet
+Z0140,false_alarm,low,узлы вблизи пустоты скана; локального схода с листа не видно,nodes near a void in the scan; no local departure from the sheet visible
+Z0142,epoch_drift,low,правое окно узлы идут наискось широкой полосой без чёткого схода с листа [контроль: класс подтверждён],in the right window the nodes run obliquely in a wide band with no clear departure from the sheet [control: class confirmed]
+Z0143,false_alarm,high,узлы точно ложатся на banner; ни схода ни сдвига не видно,the nodes land exactly on the banner; neither departure nor offset visible
+Z0144,epoch_drift,low,длинная цепочка узлов вдоль плотного banner на широком участке,a long chain of nodes along the dense banner over a wide stretch
+Z0147,epoch_drift,high,широкая горизонтальная полоса красных узлов со сдвигом при плотном banner,a wide horizontal band of red nodes with an offset while the banner stays dense
+Z0148,false_alarm,low,яркое пятно рядом с зоной; читаемость трассы под вопросом,a bright blob next to the zone; the readability of the trace is in question
+Z0149,epoch_drift,low,цепочка узлов поднимается наискось широкой полосой вдоль banner,the chain of nodes climbs obliquely in a wide band along the banner
+Z0150,epoch_drift,low,вертикальная цепочка узлов на широком участке рядом с плотным banner,a vertical chain of nodes over a wide stretch next to the dense banner
+Z0151,false_alarm,high,узлы плотно лежат на кольцевом banner без расхождения,the nodes lie tightly on the annular banner with no divergence
+Z0152,epoch_drift,high,узлы идут параллельно волнистому листу со сдвигом на широком участке,nodes run parallel to the wavy sheet with an offset over a wide stretch
+Z0153,false_alarm,high,в обоих окнах узлы тесно совпадают с banner,in both windows the nodes coincide closely with the banner
+Z0154,false_alarm,low,локальный кластер в тёмном зазоре; banner плотный непрерывный; схода с листа не видно,a local cluster inside a dark gap; banner dense and continuous; no departure from the sheet visible
+Z0155,banner_edge,high,banner редеет и почти пропадает у зоны в левом верхнем углу; трасса на листе,the banner thins and almost disappears at the zone in the upper left corner; the trace stays on the sheet
+Z0156,banner_edge,low,зона у края тёмной каверны; banner в этой области заметно истончается,the zone sits at the edge of a dark cavity; the banner thins noticeably in this area
+Z0157,false_alarm,low,локальный кластер среди плотного непрерывного banner; явного схода с листа не видно,a local cluster inside a dense continuous banner; no clear departure from the sheet visible
+Z0158,epoch_drift,high,длинная вертикальная цепочка красных узлов вдоль листа; banner непрерывный; широкая полоса несогласия,a long vertical chain of red nodes along the sheet; banner continuous; a wide band of disagreement
+Z0159,false_alarm,low,область завитка со сложной геометрией; CT трудночитаем; уверенной структуры не видно,a curl area with complex geometry; the CT is hard to read; no confident structure visible
+Z0160,banner_edge,high,чёткая граница покрытия; banner плотный справа и отсутствует слева прямо у зоны,"a sharp coverage boundary; the banner is dense on the right and absent on the left, right at the zone"
+Z0161,banner_edge,low,зона у края тёмной каверны; banner истончается по аналогии с соседней зоной [контроль: класс подтверждён],"the zone sits at the edge of a dark cavity; the banner thins, by analogy with the neighbouring zone [control: class confirmed]"
+Z0164,epoch_drift,low,контроль: возможный пинч-переход не читается уверенно; все узлы в 10 vx от banner; сомнение против real_error,control: a possible pinch transition cannot be read with confidence; all nodes within 10 vx of the banner; doubt against real_error
+Z0165,false_alarm,low,область завитка со сложной геометрией; уверенного признака схода или сдвига нет,a curl area with complex geometry; no confident sign of a departure or an offset
+Z0167,false_alarm,low,фон плотный однородный узел зоны не выделяется banner и трасса совпадают,"background dense and uniform, the zone node does not stand out, banner and trace coincide"
+Z0168,banner_edge,low,узел у пустого участка скана возле петли banner редеет рядом,"a node next to an empty patch of the scan near a loop, the banner thins alongside"
+Z0169,false_alarm,low,узлы зоны плотно лежат на banner и трассе без видимого расхождения,the zone nodes lie tightly on the banner and the trace with no visible divergence
+Z0170,false_alarm,low,узлы на трассе среди шумного скана явное расхождение не читается,"nodes on the trace inside a noisy scan, no clear divergence can be read"
+Z0171,false_alarm,low,вертикальная цепочка узлов рядом с диагональными листами сход неочевиден,"a vertical chain of nodes next to diagonal sheets, the departure is not obvious"
+Z0172,false_alarm,low,узлы у magenta без явного смещения от плотного banner,nodes near the magenta with no clear displacement from the dense banner
+Z0173,banner_edge,low,узлы рядом с пустым участком скана сверху зоны,nodes next to an empty patch of the scan above the zone
+Z0174,false_alarm,low,узлы следуют изгибу листа вместе с banner без разрыва,"the nodes follow the bend of the sheet together with the banner, with no break"
+Z0175,false_alarm,low,узлы вдоль одного листа совпадают с плотным banner,nodes along a single sheet coincide with the dense banner
+Z0176,false_alarm,low,узлы на трассе плотно среди параллельных диагональных листов,nodes crowd on the trace among parallel diagonal sheets
+Z0177,false_alarm,low,цепочка узлов вдоль трассы без видимого смещения от banner,a chain of nodes along the trace with no visible displacement from the banner

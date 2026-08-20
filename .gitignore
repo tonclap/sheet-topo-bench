@@ -1,0 +1,9 @@
+# Running verify.py imports the shipped modules, which makes CPython write
+# bytecode caches next to them. They are build artifacts of reading the
+# package, not part of it — MANIFEST.json does not list them.
+__pycache__/
+*.py[cod]
+
+# verify.py itself writes only into a temporary directory, but pytest and
+# friends leave these behind if anyone runs them here.
+.pytest_cache/

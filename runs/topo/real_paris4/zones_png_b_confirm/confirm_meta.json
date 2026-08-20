@@ -1,0 +1,204 @@
+{
+ "Z0058": {
+  "card_z": {
+   "434": 10565.091796875
+  },
+  "rc": 389,
+  "windows": [
+   {
+    "anchors": [
+     434
+    ],
+    "dz": [
+     28.7138671875
+    ],
+    "file": "Z0058_r387.png",
+    "independent": true,
+    "rendered": true,
+    "row": 387,
+    "z": [
+     10536
+    ],
+    "z_shift": 0.0,
+    "zone_nodes_in_slabs": 13
+   },
+   {
+    "anchors": [
+     434
+    ],
+    "dz": [
+     34.60546875
+    ],
+    "file": "Z0058_r391.png",
+    "independent": true,
+    "rendered": true,
+    "row": 391,
+    "z": [
+     10600
+    ],
+    "z_shift": 0.0,
+    "zone_nodes_in_slabs": 3
+   }
+  ]
+ },
+ "Z0106": {
+  "card_z": {
+   "921": 10487.3798828125
+  },
+  "rc": 385,
+  "windows": [
+   {
+    "anchors": [
+     921
+    ],
+    "dz": [
+     18.322265625
+    ],
+    "file": "Z0106_r383.png",
+    "independent": true,
+    "rendered": true,
+    "row": 383,
+    "z": [
+     10469
+    ],
+    "z_shift": 0.0,
+    "zone_nodes_in_slabs": 5
+   },
+   {
+    "anchors": [
+     921
+    ],
+    "dz": [
+     11.06640625
+    ],
+    "file": "Z0106_r386.png",
+    "independent": false,
+    "rendered": true,
+    "row": 386,
+    "z": [
+     10498
+    ],
+    "z_shift": 0.0,
+    "zone_nodes_in_slabs": 10
+   }
+  ]
+ },
+ "Z0136": {
+  "card_z": {
+   "938": 16432.109375
+  },
+  "rc": 680,
+  "windows": [
+   {
+    "anchors": [
+     938
+    ],
+    "dz": [
+     51.548828125
+    ],
+    "file": "Z0136_r678.png",
+    "independent": true,
+    "rendered": true,
+    "row": 678,
+    "z": [
+     16381
+    ],
+    "z_shift": 0.0,
+    "zone_nodes_in_slabs": 2
+   },
+   {
+    "anchors": [
+     938
+    ],
+    "dz": [
+     39.28515625
+    ],
+    "file": "Z0136_r682.png",
+    "independent": true,
+    "rendered": true,
+    "row": 682,
+    "z": [
+     16471
+    ],
+    "z_shift": 0.0,
+    "zone_nodes_in_slabs": 4
+   }
+  ]
+ },
+ "Z0163": {
+  "card_z": {
+   "690": 16470.587890625
+  },
+  "rc": 681,
+  "windows": [
+   {
+    "anchors": [
+     690
+    ],
+    "dz": [
+     11.396484375
+    ],
+    "file": "Z0163_r680.png",
+    "independent": false,
+    "rendered": true,
+    "row": 680,
+    "z": [
+     16459
+    ],
+    "z_shift": 0.0,
+    "zone_nodes_in_slabs": 9
+   },
+   {
+    "anchors": [
+     690
+    ],
+    "dz": [
+     11.337890625
+    ],
+    "file": "Z0163_r682.png",
+    "independent": false,
+    "rendered": true,
+    "row": 682,
+    "z": [
+     16482
+    ],
+    "z_shift": 0.0,
+    "zone_nodes_in_slabs": 4
+   },
+   {
+    "anchors": [
+     690
+    ],
+    "dz": [
+     14.0
+    ],
+    "file": "Z0163_r681_dz+14.png",
+    "independent": true,
+    "rendered": true,
+    "row": 681,
+    "z": [
+     16485
+    ],
+    "z_shift": 14.0,
+    "zone_nodes_in_slabs": 3
+   },
+   {
+    "anchors": [
+     690
+    ],
+    "dz": [
+     14.0
+    ],
+    "file": "Z0163_r681_dz-14.png",
+    "independent": true,
+    "rendered": true,
+    "row": 681,
+    "z": [
+     16457
+    ],
+    "z_shift": -14.0,
+    "zone_nodes_in_slabs": 10
+   }
+  ]
+ }
+}

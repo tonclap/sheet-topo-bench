@@ -1,0 +1,166 @@
+{
+ "declaration": "probe_phase_cost.py header, committed before the run",
+ "gate_formally_met": true,
+ "gate_read_as_degenerate": "the cluster metric is 0 via PERCOLATION (evidence at half of all pristine nodes merges into tall clusters that the height cut removes) — outcome (в) of TOPO-049, not a pass",
+ "gate_rule": "build iff median clusters x5 <= 40",
+ "median_clusters_mid_quantile": 0.0,
+ "per_segment": {
+  "20260701183124-w010-027": {
+   "cluster_masses": [],
+   "clusters": 0,
+   "evidence_nodes": 13796,
+   "evidence_rate": 0.5099,
+   "mute_nodes": 160,
+   "mute_rate": 0.0059,
+   "nodes": 27056
+  },
+  "20260701183125-w028-037": {
+   "cluster_masses": [],
+   "clusters": 0,
+   "evidence_nodes": 14108,
+   "evidence_rate": 0.5104,
+   "mute_nodes": 177,
+   "mute_rate": 0.0064,
+   "nodes": 27642
+  },
+  "20260701183126-w038-045": {
+   "cluster_masses": [],
+   "clusters": 0,
+   "evidence_nodes": 15726,
+   "evidence_rate": 0.5279,
+   "mute_nodes": 172,
+   "mute_rate": 0.0058,
+   "nodes": 29790
+  },
+  "20260701183127-w046-052": {
+   "cluster_masses": [],
+   "clusters": 0,
+   "evidence_nodes": 16119,
+   "evidence_rate": 0.5551,
+   "mute_nodes": 269,
+   "mute_rate": 0.0093,
+   "nodes": 29036
+  },
+  "20260701183128-w053-058": {
+   "cluster_masses": [],
+   "clusters": 0,
+   "evidence_nodes": 15665,
+   "evidence_rate": 0.5575,
+   "mute_nodes": 412,
+   "mute_rate": 0.0147,
+   "nodes": 28101
+  },
+  "20260701183129-w059-063": {
+   "cluster_masses": [],
+   "clusters": 0,
+   "evidence_nodes": 12856,
+   "evidence_rate": 0.5304,
+   "mute_nodes": 381,
+   "mute_rate": 0.0157,
+   "nodes": 24240
+  },
+  "20260701183130-w064-068": {
+   "cluster_masses": [],
+   "clusters": 0,
+   "evidence_nodes": 14576,
+   "evidence_rate": 0.5572,
+   "mute_nodes": 405,
+   "mute_rate": 0.0155,
+   "nodes": 26160
+  },
+  "20260701183131-w069-072": {
+   "cluster_masses": [],
+   "clusters": 0,
+   "evidence_nodes": 12517,
+   "evidence_rate": 0.5596,
+   "mute_nodes": 427,
+   "mute_rate": 0.0191,
+   "nodes": 22368
+  }
+ },
+ "pristine_evidence_rate_by_floor": {
+  "0.5": 0.5442,
+  "1.0": 0.2012,
+  "1.5": 0.0677,
+  "2.0": 0.0314,
+  "2.8": 0.0102
+ },
+ "pristine_phase_distribution": {
+  "q50": 0.545,
+  "q75": 0.9,
+  "q90": 1.294,
+  "q95": 1.667,
+  "q99": 2.8,
+  "q99.9": 5.334
+ },
+ "probe": "phase-channel pristine false-alarm floor (U-024 stage 1)",
+ "quantile_index": 2,
+ "segments_probed": 8,
+ "stopped_early": "dated decision 18.08.2026 (twenty-seventh session): run stopped after 8 of 16 segments — the verdict no longer depends on the remainder (all 8 give 0 clusters via percolation at a stationary 0.51-0.56 evidence rate); checkpoints allow a resume at any time",
+ "verdict": "NEGATIVE: no floor gives benefit >= 8/22 at a sane pristine rate (0.5 -> 13/22 @ 54%; 1.0 -> 10/22 @ 20%; 1.5 -> 4/22 @ 6.8%; q99=2.8 -> 3/22 @ 1%). The mid-gap signature is the normal state of half the pristine nodes; the full channel is not built. U-024 closes negative.",
+ "window_benefit_by_floor": {
+  "0.5": {
+   "covered": [
+    "M002",
+    "M010",
+    "M011",
+    "M013",
+    "M019",
+    "M031",
+    "M056",
+    "M067",
+    "M069",
+    "M090",
+    "M092",
+    "S029",
+    "S063"
+   ],
+   "n": 13,
+   "pristine_rate": 0.5442
+  },
+  "1.0": {
+   "covered": [
+    "M002",
+    "M010",
+    "M011",
+    "M031",
+    "M054",
+    "M090",
+    "M092",
+    "S027",
+    "S029",
+    "S063"
+   ],
+   "n": 10,
+   "pristine_rate": 0.2012
+  },
+  "1.5": {
+   "covered": [
+    "M002",
+    "M010",
+    "M011",
+    "M031"
+   ],
+   "n": 4,
+   "pristine_rate": 0.0677
+  },
+  "2.0": {
+   "covered": [
+    "M010",
+    "M031",
+    "M069"
+   ],
+   "n": 3,
+   "pristine_rate": 0.0314
+  },
+  "2.8": {
+   "covered": [
+    "M010",
+    "M031",
+    "M069"
+   ],
+   "n": 3,
+   "pristine_rate": 0.0102
+  }
+ }
+}

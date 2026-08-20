@@ -1,0 +1,77 @@
+{
+ "bands": "dev",
+ "channel_pool": "v1 (prox+rect+support), frozen",
+ "corpus": "E:\\VSCode\\media-banger-repos\\vesuvius-progress-prize\\output\\topo\\corpus_paris4",
+ "corrector": "v1 zone-model cuts (TOPO-022): hit = repair + scar, false = scar on healthy trace",
+ "erl_broken_mm": 433.00917411395176,
+ "erl_pristine_mm": 445.40623749045886,
+ "false_cut_rows": 12,
+ "oracle": {
+  "delta_erl_mm": 0.20888186716103974,
+  "harmful_cuts": 0,
+  "helpful_cuts": 232,
+  "k": 232
+ },
+ "random": {
+  "116": {
+   "iqr": [
+    -17.037159170378985,
+    -15.912099860084467
+   ],
+   "median": -16.44060803180645
+  },
+  "232": {
+   "iqr": [
+    -32.64158754980845,
+    -31.346588549729574
+   ],
+   "median": -31.903660767961952
+  },
+  "464": {
+   "iqr": [
+    -61.48012290477136,
+    -59.86325670260226
+   ],
+   "median": -60.67173068252245
+  },
+  "928": {
+   "iqr": [
+    -110.70589134864123,
+    -108.21791154843791
+   ],
+   "median": -109.39348907246148
+  }
+ },
+ "skeleton_total_mm": 5367779.147059171,
+ "summary": {
+  "best_delta_erl_mm": -1.5674930000502059,
+  "best_k": 116,
+  "oracle_share": -7.504208102667572
+ },
+ "sweep": [
+  {
+   "delta_erl_mm": -1.5674930000502059,
+   "harmful_cuts": 31,
+   "helpful_cuts": 85,
+   "k": 116
+  },
+  {
+   "delta_erl_mm": -3.3569622247024995,
+   "harmful_cuts": 70,
+   "helpful_cuts": 162,
+   "k": 232
+  },
+  {
+   "delta_erl_mm": -4.857564779632298,
+   "harmful_cuts": 105,
+   "helpful_cuts": 199,
+   "k": 464
+  },
+  {
+   "delta_erl_mm": -4.857564779632298,
+   "harmful_cuts": 105,
+   "helpful_cuts": 199,
+   "k": 928
+  }
+ ]
+}

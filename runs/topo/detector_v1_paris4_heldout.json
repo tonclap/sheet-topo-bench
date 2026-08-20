@@ -1,0 +1,853 @@
+{
+ "bands": "heldout",
+ "corpus": "E:\\VSCode\\media-banger-repos\\vesuvius-progress-prize\\output\\topo\\corpus_paris4",
+ "detector": "v1 cross-trace proximity (U-008) + hole shape (U-009)",
+ "erl_context": {
+  "delta_erl_oracle_mm": 0.11825968668398446,
+  "delta_erl_random_mm_median10": 0.0,
+  "delta_erl_random_mm_seeds": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0055
+  ],
+  "note": "delta_erl_mm values are corpus-wide (all injected segments, one number), against erl_broken_mm of the same corpus; the normalised reading is delta/oracle_delta",
+  "oracle_recall_at_n": 1.0
+ },
+ "lineage": "v0 ray-ladder AP 0.0000; U-008 taken as declared in oneshot/UNTRIED.md",
+ "metrics": {
+  "ap": 0.6663115686106462,
+  "delta_erl_mm": 0.10828926360051128,
+  "erl_after_cuts_mm": 383.90762017891353,
+  "erl_broken_mm": 383.799330915313,
+  "recall_at_n": 0.75
+ },
+ "per_injection_rank": {
+  "H021": 7,
+  "H022": 2,
+  "H023": 32,
+  "H024": 40,
+  "H025": 53,
+  "H026": 57,
+  "H027": 5,
+  "H028": 38,
+  "H051": 47,
+  "H052": 9,
+  "H053": 12,
+  "H054": 45,
+  "H055": 42,
+  "H056": 50,
+  "H057": 17,
+  "H058": 34,
+  "H080": 24,
+  "H081": 20,
+  "H082": 55,
+  "H083": 30,
+  "H084": 15,
+  "H085": 28,
+  "H086": 22,
+  "M020": 21,
+  "M021": 19,
+  "M022": null,
+  "M023": 51,
+  "M024": null,
+  "M025": null,
+  "M047": null,
+  "M048": null,
+  "M049": null,
+  "M050": 35,
+  "M051": 46,
+  "M052": 11,
+  "M072": 56,
+  "M073": 6,
+  "M074": 29,
+  "M075": 26,
+  "M076": 31,
+  "M077": null,
+  "M097": null,
+  "M098": null,
+  "M099": 27,
+  "S019": null,
+  "S020": 10,
+  "S021": 33,
+  "S022": 49,
+  "S023": null,
+  "S024": null,
+  "S045": null,
+  "S046": 23,
+  "S047": 3,
+  "S048": 8,
+  "S049": 44,
+  "S050": null,
+  "S068": 39,
+  "S069": 18,
+  "S070": null,
+  "S071": 16,
+  "S072": 4,
+  "S073": 25,
+  "S093": 37,
+  "S094": 54,
+  "S095": null,
+  "S096": null,
+  "S097": 41,
+  "S098": 14
+ },
+ "per_rank_outcomes": [
+  null,
+  "H022",
+  "S047",
+  "S072",
+  "H027",
+  "M073",
+  "H021",
+  "S048",
+  "H052",
+  "S020",
+  "M052",
+  "H053",
+  null,
+  "S098",
+  "H084",
+  "S071",
+  "H057",
+  "S069",
+  "M021",
+  "H081",
+  "M020",
+  "H086",
+  "S046",
+  "H080",
+  "S073",
+  "M075",
+  "M099",
+  "H085",
+  "M074",
+  "H083",
+  "M076",
+  "H023",
+  "S021",
+  "H058",
+  "M050",
+  null,
+  "S093",
+  "H028",
+  "S068",
+  "H024",
+  "S097",
+  "H055",
+  null,
+  "S049",
+  "H054",
+  "M051",
+  "H051",
+  null,
+  "S022",
+  "H056",
+  "M023",
+  null,
+  "H025",
+  "S094",
+  "H082",
+  "M072",
+  "H026",
+  null
+ ],
+ "probe": {
+  "M_prox_peaks": {
+   "n": 21,
+   "q0.1": 0.0,
+   "q0.25": 0.0,
+   "q0.5": 0.0,
+   "q0.9": 0.0
+  },
+  "M_vjump_peaks_vx": {
+   "n": 21,
+   "q0.1": 9.47,
+   "q0.25": 13.91,
+   "q0.5": 19.33,
+   "q0.9": 68.18
+  },
+  "S_prox_peaks": {
+   "n": 24,
+   "q0.1": 0.0,
+   "q0.25": 0.0,
+   "q0.5": 0.0,
+   "q0.9": 0.1033
+  },
+  "S_vjump_peaks_vx": {
+   "n": 24,
+   "q0.1": 10.204,
+   "q0.25": 15.1825,
+   "q0.5": 26.79,
+   "q0.9": 94.198
+  },
+  "background_prox": {
+   "n": 4110132,
+   "q0.5": 0.0,
+   "q0.9": 0.0,
+   "q0.99": 0.0,
+   "q0.999": 0.5834
+  },
+  "background_vjump_vx": {
+   "n": 4108969,
+   "q0.5": 6.2751,
+   "q0.9": 20.3569,
+   "q0.99": 46.3285,
+   "q0.999": 96.031
+  },
+  "injections": [
+   {
+    "id": "S068",
+    "plausible": true,
+    "prox_peak": 0.8398,
+    "type": "S",
+    "vjump_peak_vx": 5.2
+   },
+   {
+    "id": "S069",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 40.22
+   },
+   {
+    "id": "M020",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 17.34
+   },
+   {
+    "id": "M021",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 18.31
+   },
+   {
+    "id": "H023",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H053",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H081",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "S020",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 22.1
+   },
+   {
+    "id": "S094",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 13.32
+   },
+   {
+    "id": "M047",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 48.81
+   },
+   {
+    "id": "M048",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 13.91
+   },
+   {
+    "id": "M072",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 18.43
+   },
+   {
+    "id": "M098",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 10.38
+   },
+   {
+    "id": "H080",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "S019",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 45.04
+   },
+   {
+    "id": "S045",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 11.66
+   },
+   {
+    "id": "S093",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 53.64
+   },
+   {
+    "id": "M073",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 185.96
+   },
+   {
+    "id": "M097",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 25.9
+   },
+   {
+    "id": "H021",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H022",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H051",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H052",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "S047",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 26.69
+   },
+   {
+    "id": "M074",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 39.75
+   },
+   {
+    "id": "H083",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H084",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "S022",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 36.82
+   },
+   {
+    "id": "S070",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 44.42
+   },
+   {
+    "id": "S095",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 15.58
+   },
+   {
+    "id": "M023",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 28.99
+   },
+   {
+    "id": "M049",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 37.1
+   },
+   {
+    "id": "M050",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 13.2
+   },
+   {
+    "id": "M099",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 9.47
+   },
+   {
+    "id": "H024",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H025",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H054",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "S021",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 18.84
+   },
+   {
+    "id": "S048",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 56.27
+   },
+   {
+    "id": "S096",
+    "plausible": false,
+    "prox_peak": 0.1476,
+    "type": "S",
+    "vjump_peak_vx": 57.63
+   },
+   {
+    "id": "M022",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 18.64
+   },
+   {
+    "id": "M075",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 67.88
+   },
+   {
+    "id": "S046",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 303.48
+   },
+   {
+    "id": "M076",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 68.18
+   },
+   {
+    "id": "H055",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H082",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H027",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H058",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "S049",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 27.87
+   },
+   {
+    "id": "S072",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 109.87
+   },
+   {
+    "id": "S073",
+    "plausible": false,
+    "prox_peak": 0.5943,
+    "type": "S",
+    "vjump_peak_vx": 7.25
+   },
+   {
+    "id": "S097",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 20.14
+   },
+   {
+    "id": "M024",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 7.91
+   },
+   {
+    "id": "M051",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 8.5
+   },
+   {
+    "id": "S071",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 285.99
+   },
+   {
+    "id": "H026",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H028",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H057",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H086",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "S024",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 21.89
+   },
+   {
+    "id": "S050",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 13.99
+   },
+   {
+    "id": "S023",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 9.58
+   },
+   {
+    "id": "S098",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "S",
+    "vjump_peak_vx": 26.89
+   },
+   {
+    "id": "M025",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 137.06
+   },
+   {
+    "id": "M052",
+    "plausible": true,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 23.29
+   },
+   {
+    "id": "M077",
+    "plausible": false,
+    "prox_peak": 0.0,
+    "type": "M",
+    "vjump_peak_vx": 19.33
+   },
+   {
+    "id": "H056",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   },
+   {
+    "id": "H085",
+    "plausible": null,
+    "prox_peak": 0.0,
+    "type": "H",
+    "vjump_peak_vx": null
+   }
+  ]
+ },
+ "recall_by_band": {
+  "w100-109": 0.7391,
+  "w110-119": 0.7826,
+  "w120-129": 0.7273
+ },
+ "recall_by_type": {
+  "H": 1.0,
+  "M": 0.5714285714285714,
+  "S": 0.6666666666666666
+ },
+ "recall_on_locally_plausible": 0.5454545454545454,
+ "scoped_injections": 68,
+ "substrate": {
+  "contact_share": 0.00143,
+  "masked_prox_clusters": 904,
+  "masked_rect_components": 338,
+  "masked_support_clusters": 0,
+  "skeleton_points": 12328208,
+  "substrate_contact_points": 17690
+ },
+ "vjump_weighted": {
+  "metrics": {
+   "ap": 0.6613975013371656,
+   "delta_erl_mm": 0.10828926360051128,
+   "erl_after_cuts_mm": 383.90762017891353,
+   "erl_broken_mm": 383.799330915313,
+   "recall_at_n": 0.75
+  },
+  "per_injection_rank": {
+   "H021": 7,
+   "H022": 2,
+   "H023": 32,
+   "H024": 40,
+   "H025": 53,
+   "H026": 57,
+   "H027": 5,
+   "H028": 38,
+   "H051": 47,
+   "H052": 9,
+   "H053": 12,
+   "H054": 45,
+   "H055": 42,
+   "H056": 50,
+   "H057": 17,
+   "H058": 34,
+   "H080": 24,
+   "H081": 20,
+   "H082": 55,
+   "H083": 30,
+   "H084": 15,
+   "H085": 28,
+   "H086": 22,
+   "M020": 21,
+   "M021": 19,
+   "M022": null,
+   "M023": 51,
+   "M024": null,
+   "M025": null,
+   "M047": null,
+   "M048": null,
+   "M049": null,
+   "M050": 35,
+   "M051": 46,
+   "M052": 11,
+   "M072": 56,
+   "M073": 6,
+   "M074": 29,
+   "M075": 26,
+   "M076": 31,
+   "M077": null,
+   "M097": null,
+   "M098": null,
+   "M099": 27,
+   "S019": null,
+   "S020": 10,
+   "S021": 33,
+   "S022": 49,
+   "S023": null,
+   "S024": null,
+   "S045": null,
+   "S046": 23,
+   "S047": 3,
+   "S048": 8,
+   "S049": 44,
+   "S050": null,
+   "S068": 39,
+   "S069": 18,
+   "S070": null,
+   "S071": 16,
+   "S072": 4,
+   "S073": 36,
+   "S093": 37,
+   "S094": 54,
+   "S095": null,
+   "S096": null,
+   "S097": 41,
+   "S098": 14
+  },
+  "per_rank_outcomes": [
+   null,
+   "H022",
+   "S047",
+   "S072",
+   "H027",
+   "M073",
+   "H021",
+   "S048",
+   "H052",
+   "S020",
+   "M052",
+   "H053",
+   null,
+   "S098",
+   "H084",
+   "S071",
+   "H057",
+   "S069",
+   "M021",
+   "H081",
+   "M020",
+   "H086",
+   "S046",
+   "H080",
+   null,
+   "M075",
+   "M099",
+   "H085",
+   "M074",
+   "H083",
+   "M076",
+   "H023",
+   "S021",
+   "H058",
+   "M050",
+   "S073",
+   "S093",
+   "H028",
+   "S068",
+   "H024",
+   "S097",
+   "H055",
+   null,
+   "S049",
+   "H054",
+   "M051",
+   "H051",
+   null,
+   "S022",
+   "H056",
+   "M023",
+   null,
+   "H025",
+   "S094",
+   "H082",
+   "M072",
+   "H026",
+   null
+  ],
+  "recall_by_band": {
+   "w100-109": 0.7391,
+   "w110-119": 0.7826,
+   "w120-129": 0.7273
+  },
+  "recall_by_type": {
+   "H": 1.0,
+   "M": 0.5714285714285714,
+   "S": 0.6666666666666666
+  },
+  "recall_on_locally_plausible": 0.5454545454545454
+ }
+}

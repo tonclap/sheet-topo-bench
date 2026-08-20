@@ -1,0 +1,28 @@
+# The light path — `python verify.py`, no network, seconds. Nothing else is
+# needed for it, and `requirements.txt` pulls this file in for the full one.
+#
+# Pinned, and pinned in two sets because one set cannot cover both: the newer
+# releases declare Requires-Python >= 3.11/3.12, so a single `==` line would
+# make the package uninstallable on the 3.10 it was developed on. Each set is
+# a combination `verify.py` was actually run green on, not a guess:
+#
+#   <  3.12  verified on CPython 3.10.6, clean venv outside the repository,
+#            2026-08-20 — 15/15 regenerations, 74/74 bindings, exit 0
+#   >= 3.12  verified on CPython 3.14.7, same conditions and same date,
+#            same 15/15 and 74/74
+#
+# On 3.11 the first set is selected; every member of it declares >= 3.10, and
+# the combination installs and verifies there too (checked 2026-08-20).
+#
+# The pins record what was verified — they are not a claim that other versions
+# fail. verify.py is green on tifffile 2023.8.12, 2025.5.10 and 2026.8.16
+# alike; loosen them deliberately if you need to, and the run will tell you.
+
+numpy==2.2.6 ; python_version < "3.12"
+numpy==2.5.2 ; python_version >= "3.12"
+
+tifffile==2025.5.10 ; python_version < "3.12"
+tifffile==2026.8.16 ; python_version >= "3.12"
+
+numcodecs==0.13.1 ; python_version < "3.12"
+numcodecs==0.16.5 ; python_version >= "3.12"

@@ -1,0 +1,59 @@
+{
+ "baseline_kink": {
+  "ap": 0.0,
+  "delta_erl_mm": 0.0,
+  "erl_after_cuts_mm": 413.67151989607726,
+  "erl_broken_mm": 413.67151989607726,
+  "recall_at_n": 0.0
+ },
+ "baseline_random": {
+  "ap": {
+   "iqr": [
+    0.0,
+    1.9758722678350084e-05
+   ],
+   "median": 0.0
+  },
+  "delta_erl_mm": {
+   "iqr": [
+    0.0,
+    0.000814496505029183
+   ],
+   "median": 0.0
+  },
+  "recall_at_n": {
+   "iqr": [
+    0.0,
+    0.0033333333333333335
+   ],
+   "median": 0.0
+  }
+ },
+ "corpus": "E:\\VSCode\\media-banger-repos\\vesuvius-progress-prize\\output\\topo\\corpus_paris4",
+ "density_curve": [
+  {
+   "erl_mm": 419.5004921700169,
+   "share": 0.25
+  },
+  {
+   "erl_mm": 417.3644473371374,
+   "share": 0.5
+  },
+  {
+   "erl_mm": 415.20186047922783,
+   "share": 0.75
+  },
+  {
+   "erl_mm": 413.67151989607726,
+   "share": 1.0
+  }
+ ],
+ "density_monotone": true,
+ "erl_broken_mm": 413.67151989607726,
+ "erl_pristine_mm": 423.37097065974945,
+ "protocol": "oneshot/PROTOCOL.md v1",
+ "row_step": 1,
+ "runs": 31928,
+ "scroll": "PHercParis4",
+ "skeleton_total_mm": 8842591.693624133
+}

@@ -1,0 +1,1091 @@
+{
+ "name": "sheet-topo-bench",
+ "files": [
+  {
+   "path": "README.md",
+   "source": "oneshot/benchmark/README.md",
+   "sha256": "1127f32d3e354260f5ab4a20e523d844fdbb284de32e58bef77b8d8190ff9fa6",
+   "bytes": 35300
+  },
+  {
+   "path": "READING_GUIDE.md",
+   "source": "oneshot/benchmark/READING_GUIDE.md",
+   "sha256": "83a4b1be2781ca9a99b008f532ff8639745e9b60c7b20feaf8edf89fb5effa2c",
+   "bytes": 12772
+  },
+  {
+   "path": "verify.py",
+   "source": "oneshot/benchmark/verify.py",
+   "sha256": "ed4c7c9317ba1a7076af5dd2c873033e7b4619803fabdac96d7ac6280d1746a8",
+   "bytes": 31888
+  },
+  {
+   "path": "LICENSE",
+   "source": "oneshot/benchmark/LICENSE",
+   "sha256": "39018d818fb52556e5873940045001c57413d53295e3446ccda0686287d7dfea",
+   "bytes": 1074
+  },
+  {
+   "path": "AI_DISCLOSURE.md",
+   "source": "oneshot/benchmark/AI_DISCLOSURE.md",
+   "sha256": "ae9ac9fab1116714ed428bb5fa37d43ab716eba0470a260cffddeb61f226376c",
+   "bytes": 549
+  },
+  {
+   "path": "requirements.txt",
+   "source": "oneshot/benchmark/requirements.txt",
+   "sha256": "79e3a7a76c9499ce82033f1da873370af1b48341aee0e8634fcd537f7df13c45",
+   "bytes": 1896
+  },
+  {
+   "path": "requirements-verify.txt",
+   "source": "oneshot/benchmark/requirements-verify.txt",
+   "sha256": "10285a6ccadbb013aafe127b29d6ec9262a868a1ad0454dc8cc7747fba428a1a",
+   "bytes": 1364
+  },
+  {
+   "path": ".gitignore",
+   "source": "oneshot/benchmark/package_gitignore",
+   "sha256": "cd769e5c99845777b1a5edc88a2de4aa96f20f89fbdb8798295eab686c959f86",
+   "bytes": 379
+  },
+  {
+   "path": "oneshot/PROTOCOL.md",
+   "source": "oneshot/PROTOCOL.md",
+   "sha256": "89f2f174e7c1ea189af709a1bdece243a2f49946c354c005978a60f653129523",
+   "bytes": 24225
+  },
+  {
+   "path": "oneshot/FREEZE_2026-08-14.md",
+   "source": "oneshot/FREEZE_2026-08-14.md",
+   "sha256": "f2f3ebc4276fa4eff07477f934390798a658bd951a735a60395406c2ca60c6fb",
+   "bytes": 15328
+  },
+  {
+   "path": "oneshot/FREEZE_2026-08-19.md",
+   "source": "oneshot/FREEZE_2026-08-19.md",
+   "sha256": "b2b46a07f9b372a2d6ca4ff4574b8e2265a18e9dec62a1e7ea4518020dc0ad96",
+   "bytes": 13062
+  },
+  {
+   "path": "oneshot/HELDOUT_RESULTS.md",
+   "source": "oneshot/HELDOUT_RESULTS.md",
+   "sha256": "222b73b0f5d60f197b164f148c6b3204f3a5010be3207b4d16bc41d494891165",
+   "bytes": 6287
+  },
+  {
+   "path": "oneshot/UNTRIED.md",
+   "source": "oneshot/UNTRIED.md",
+   "sha256": "8bef8827dc62b41173e47c6929e76dc1afe2238359abefb34307f6b7178fb9e8",
+   "bytes": 71664
+  },
+  {
+   "path": "oneshot/net_retry.py",
+   "source": "oneshot/net_retry.py",
+   "sha256": "00b00f4d26530dcb0121d593c66871b007f6aa243da78fddf06c505c253fdaf8",
+   "bytes": 2061
+  },
+  {
+   "path": "wave2/figures/scrolls.py",
+   "source": "wave2/figures/scrolls.py",
+   "sha256": "10f966ff1b32f772b4f6f765bb6f135b20c0a03afb789a723e0d69a7aead2d55",
+   "bytes": 31645
+  },
+  {
+   "path": "wave2/standalone/absolute_winding_calibration.py",
+   "source": "wave2/standalone/absolute_winding_calibration.py",
+   "sha256": "ba043a8b4d0ea8f50c59c0dc87b394179d378ae0c1595d4f855a0345dc9b023f",
+   "bytes": 30125
+  },
+  {
+   "path": "oneshot/injector/inject_errors.py",
+   "source": "oneshot/injector/inject_errors.py",
+   "sha256": "9ca53eae1dadf8275f64bf91023850775a33156ffa967a75b23c74a84600ca83",
+   "bytes": 21220
+  },
+  {
+   "path": "oneshot/metric/sheet_erl.py",
+   "source": "oneshot/metric/sheet_erl.py",
+   "sha256": "1e6d45d5d37b6d9d428607138b361666f5d27954ba30e74d5a4bb5ae5c92b844",
+   "bytes": 14389
+  },
+  {
+   "path": "oneshot/detector/detect_v0.py",
+   "source": "oneshot/detector/detect_v0.py",
+   "sha256": "f4c540a12d7a1403a8b0632ae6b0195e58fc88b98797efa0093259a5987c3864",
+   "bytes": 11942
+  },
+  {
+   "path": "oneshot/detector/detect_v1.py",
+   "source": "oneshot/detector/detect_v1.py",
+   "sha256": "bfbb707cd730fa28dc2c561640cdeecb5ce4489e3edd10651e83ea1469f6472a",
+   "bytes": 42735
+  },
+  {
+   "path": "oneshot/detector/detect_v2.py",
+   "source": "oneshot/detector/detect_v2.py",
+   "sha256": "3b878ce0157baddb7f981e3fa8bacf0575140a35e2a1fe742afbb778bf54efb5",
+   "bytes": 22524
+  },
+  {
+   "path": "oneshot/detector/detect_v3.py",
+   "source": "oneshot/detector/detect_v3.py",
+   "sha256": "13f7b055079a128b089f634b60bc2e5ff064a99121ec08bbf40576b8706f5678",
+   "bytes": 14338
+  },
+  {
+   "path": "oneshot/detector/detect_v4.py",
+   "source": "oneshot/detector/detect_v4.py",
+   "sha256": "23f70c668b919b69d6337aaee6683489a51e840896b129f3cebc5b112a9bcece",
+   "bytes": 15707
+  },
+  {
+   "path": "oneshot/detector/detect_v5.py",
+   "source": "oneshot/detector/detect_v5.py",
+   "sha256": "2aa753e6ccfa3b2393cb185549c2060f7aeef641cd68cf4410a1f5911030d4e8",
+   "bytes": 20970
+  },
+  {
+   "path": "oneshot/detector/detect_v6.py",
+   "source": "oneshot/detector/detect_v6.py",
+   "sha256": "09a4ea8c15be9a5e0516edd87bc56b6232a06b85015b7a5991332395c1ee4526",
+   "bytes": 28906
+  },
+  {
+   "path": "oneshot/detector/detect_v6s.py",
+   "source": "oneshot/detector/detect_v6s.py",
+   "sha256": "c399babd52a4de135ea79ef53ac320775d79dc625e788cdc63dd68289a76a0b0",
+   "bytes": 26353
+  },
+  {
+   "path": "oneshot/detector/detect_v7.py",
+   "source": "oneshot/detector/detect_v7.py",
+   "sha256": "7e4120a6576ad2d68b9e4b2c4b463faa01a0f71678846e11edbd42da79068e88",
+   "bytes": 17279
+  },
+  {
+   "path": "oneshot/detector/exam_v5lu.py",
+   "source": "oneshot/detector/exam_v5lu.py",
+   "sha256": "799d920210e84a26050133d4b1e47b7cbd4919191f618be50d127385e18332bb",
+   "bytes": 16838
+  },
+  {
+   "path": "oneshot/detector/run_exam_h2.py",
+   "source": "oneshot/detector/run_exam_h2.py",
+   "sha256": "621466941ec6cb6b8ffb1a856eafdd1f66a1a516daed90e2585d700ec4174894",
+   "bytes": 5382
+  },
+  {
+   "path": "oneshot/detector/verify_v5.py",
+   "source": "oneshot/detector/verify_v5.py",
+   "sha256": "55d82973fe3e0c9b9567bcfb9ebef3138db710b0ccef1b535be8418895e67171",
+   "bytes": 22508
+  },
+  {
+   "path": "oneshot/detector/verify_v8.py",
+   "source": "oneshot/detector/verify_v8.py",
+   "sha256": "923f481db0f803a1c7743150ca946c72ee65f2265ce7bd9b76612c64d391f4f9",
+   "bytes": 8230
+  },
+  {
+   "path": "oneshot/detector/coverage_breakdown.py",
+   "source": "oneshot/detector/coverage_breakdown.py",
+   "sha256": "d67fc6dd1a0456424dfa87eb06372512cc2d90ee8ed05d943365d29177bb6a6b",
+   "bytes": 12459
+  },
+  {
+   "path": "oneshot/detector/transfer_breakdown.py",
+   "source": "oneshot/detector/transfer_breakdown.py",
+   "sha256": "deb79a8534538f8ad246c973a85c922696a9b2ea56fc8581d077da984ed82355",
+   "bytes": 7366
+  },
+  {
+   "path": "oneshot/detector/probe_radial.py",
+   "source": "oneshot/detector/probe_radial.py",
+   "sha256": "bdc1cc409694e9f314cfc9eb97f4584195e1c8a784bd4d07353116b68129c595",
+   "bytes": 14000
+  },
+  {
+   "path": "oneshot/detector/probe_phase.py",
+   "source": "oneshot/detector/probe_phase.py",
+   "sha256": "3454a033c4b0bf4e7a81e0479d20f69ee1eb76eb508425fb3ca89ee7b0f1597f",
+   "bytes": 17945
+  },
+  {
+   "path": "oneshot/detector/probe_phase_cost.py",
+   "source": "oneshot/detector/probe_phase_cost.py",
+   "sha256": "678b40c6018b65e632c09d2d4b2ab765001597c69317bc1480a28d549fd52c48",
+   "bytes": 10527
+  },
+  {
+   "path": "oneshot/detector/probe_defect.py",
+   "source": "oneshot/detector/probe_defect.py",
+   "sha256": "91b21bcbad9fd273c14844c0a458972896a2f0f61a388ca170ee7536475ea06f",
+   "bytes": 12627
+  },
+  {
+   "path": "oneshot/detector/probe_defect_cost.py",
+   "source": "oneshot/detector/probe_defect_cost.py",
+   "sha256": "0cac9a1b7faf52e68f9c9474cf0fd1711db3d5b060defe132a53c767ba249465",
+   "bytes": 18146
+  },
+  {
+   "path": "oneshot/detector/baselines.py",
+   "source": "oneshot/detector/baselines.py",
+   "sha256": "7dc21294da5de13f97b08555544a0096dee56c900b6726c8fc7a4255da81e7b0",
+   "bytes": 11875
+  },
+  {
+   "path": "oneshot/detector/probe_ct.py",
+   "source": "oneshot/detector/probe_ct.py",
+   "sha256": "80289a2305157001a1a14f5b629efad0490d6004bbb8419b2ade3e2f2d186c02",
+   "bytes": 20231
+  },
+  {
+   "path": "oneshot/detector/probe_global.py",
+   "source": "oneshot/detector/probe_global.py",
+   "sha256": "d0372b64d8deaa8fde7a9709382f6251b5abeb0a44a1c574d8ce91d2972688f4",
+   "bytes": 6425
+  },
+  {
+   "path": "oneshot/detector/atlas_sensitivity.py",
+   "source": "oneshot/detector/atlas_sensitivity.py",
+   "sha256": "ae66b443bc5e1fb7f4bdf927617e49b03158bb5e7e175e27ddcb817720413f08",
+   "bytes": 10458
+  },
+  {
+   "path": "oneshot/detector/heldout_summary.py",
+   "source": "oneshot/detector/heldout_summary.py",
+   "sha256": "b7f6c10b88ba5a56e85ae5fc0263005a870724b9f2c48ac3ac75e071a9cc0286",
+   "bytes": 22097
+  },
+  {
+   "path": "oneshot/detector/jackknife_erl.py",
+   "source": "oneshot/detector/jackknife_erl.py",
+   "sha256": "d874f02a143205d9a23bbad3a6d160031aecdc318eeba49ff090f6bd8b087e61",
+   "bytes": 6511
+  },
+  {
+   "path": "oneshot/detector/ablation_summary.py",
+   "source": "oneshot/detector/ablation_summary.py",
+   "sha256": "104c7cd7fe4f94a4c57f9cdaae27d9da7986409765ebd0f34ab8f52a0a86ab2f",
+   "bytes": 7343
+  },
+  {
+   "path": "oneshot/detector/ablation_summary_v3.py",
+   "source": "oneshot/detector/ablation_summary_v3.py",
+   "sha256": "7048ff652e58adb21b8e069241c4d709e2e1a8934d6617e046b5bd5a2043de21",
+   "bytes": 6856
+  },
+  {
+   "path": "oneshot/detector/ablation_summary_v4.py",
+   "source": "oneshot/detector/ablation_summary_v4.py",
+   "sha256": "d17bfc6d3e60c910417536c901bae80330eff59d41b882410c10581f9da17ba8",
+   "bytes": 7149
+  },
+  {
+   "path": "oneshot/detector/ablation_summary_v5.py",
+   "source": "oneshot/detector/ablation_summary_v5.py",
+   "sha256": "3873120d18be3ef2baf105e83e763f1995eb3d9ed43103ea2c5c28f178cd3d63",
+   "bytes": 7772
+  },
+  {
+   "path": "oneshot/detector/ablation_summary_v6.py",
+   "source": "oneshot/detector/ablation_summary_v6.py",
+   "sha256": "63411c6139b03b7d9dcba0b3a6ae640ee9d80c737710739290a14cbcfd2b0d53",
+   "bytes": 7842
+  },
+  {
+   "path": "oneshot/detector/ablation_summary_v6s.py",
+   "source": "oneshot/detector/ablation_summary_v6s.py",
+   "sha256": "a0a460d7d5b4784fea0e3928943418811c52b48ec8fc10b09bd70638a084828a",
+   "bytes": 7488
+  },
+  {
+   "path": "oneshot/detector/ablation_summary_v7.py",
+   "source": "oneshot/detector/ablation_summary_v7.py",
+   "sha256": "8d6eae199374f7d0d10e4092ce973f4d468f33f81f49aa40ce44099487f64fce",
+   "bytes": 6347
+  },
+  {
+   "path": "oneshot/detector/ABLATION_V2.md",
+   "source": "oneshot/detector/ABLATION_V2.md",
+   "sha256": "18cce3a871ef6f8fab014c2d869428c5ffe90131d9858ec2661b16bfccb8bb7e",
+   "bytes": 1612
+  },
+  {
+   "path": "oneshot/detector/ABLATION_V3.md",
+   "source": "oneshot/detector/ABLATION_V3.md",
+   "sha256": "19e4fc30d30eccab7ecfb058b81bbcb7192a78299437d8d6ddd4f9e8556fa5b0",
+   "bytes": 2394
+  },
+  {
+   "path": "oneshot/detector/ABLATION_V4.md",
+   "source": "oneshot/detector/ABLATION_V4.md",
+   "sha256": "3117e2ef8bd800998298655595119d95009d76c15a11d8a7a02df871d2467e1f",
+   "bytes": 2326
+  },
+  {
+   "path": "oneshot/detector/ABLATION_V5.md",
+   "source": "oneshot/detector/ABLATION_V5.md",
+   "sha256": "6cf0a7e0f6cbeeb721a8b47de170abdb9066c3259438af7f4de9ac8b849030fb",
+   "bytes": 14060
+  },
+  {
+   "path": "oneshot/detector/ABLATION_V6.md",
+   "source": "oneshot/detector/ABLATION_V6.md",
+   "sha256": "c00c100bb1644af5d4fd8f24973df88dc6408e6c43684a0f0c080e96c8b07070",
+   "bytes": 8017
+  },
+  {
+   "path": "oneshot/detector/ABLATION_V6S.md",
+   "source": "oneshot/detector/ABLATION_V6S.md",
+   "sha256": "1546a2dd302bde446d6df49af558fd8d2c2c5ed5d408098037cbbe78eaf0de4d",
+   "bytes": 1975
+  },
+  {
+   "path": "oneshot/detector/ABLATION_V7.md",
+   "source": "oneshot/detector/ABLATION_V7.md",
+   "sha256": "3a327500fa1806cd4e077eccfbb8ccc067e59ee7435c4afaee38b3639c8a3cc6",
+   "bytes": 1428
+  },
+  {
+   "path": "oneshot/detector/VERIFY_V5.md",
+   "source": "oneshot/detector/VERIFY_V5.md",
+   "sha256": "08135be2454b87c354c7ec1ede041ef2c8278910ee3f2101a6e21f4984f5b9f8",
+   "bytes": 1354
+  },
+  {
+   "path": "oneshot/detector/VERIFY_V8.md",
+   "source": "oneshot/detector/VERIFY_V8.md",
+   "sha256": "997e0e1f20e68af65df0c353a1e6c971fbcb174e7e53366cdb5f5c9aa78757e1",
+   "bytes": 550
+  },
+  {
+   "path": "oneshot/detector/ATLAS_SENSITIVITY.md",
+   "source": "oneshot/detector/ATLAS_SENSITIVITY.md",
+   "sha256": "6c1284669c98791ff0119b8ae9f593502f9f938dfe9b63b133c969352befe4eb",
+   "bytes": 2457
+  },
+  {
+   "path": "oneshot/corrector/correct_v1.py",
+   "source": "oneshot/corrector/correct_v1.py",
+   "sha256": "92cecab70e32b3a9f4f19fd6ba710a039f034155ee9dcabbc767ae2597acef6d",
+   "bytes": 11388
+  },
+  {
+   "path": "oneshot/real_errors/CORPUS.md",
+   "source": "oneshot/real_errors/CORPUS.md",
+   "sha256": "ee29db71c6f50aa14114013cc92f881618fb7fcee7b6759b42a8b0ed324c6bdf",
+   "bytes": 70802
+  },
+  {
+   "path": "oneshot/real_errors/RESULTS.md",
+   "source": "oneshot/real_errors/RESULTS.md",
+   "sha256": "0f9cc4e0ce05846731577e23c6b8e5b59fa650ba4a573813cf01d3a3e33e3ed2",
+   "bytes": 61691
+  },
+  {
+   "path": "oneshot/real_errors/ZONES_124.md",
+   "source": "oneshot/real_errors/ZONES_124.md",
+   "sha256": "82b1ff6686938eaf1326e013b7cce5dfe063fd60b233730c77abebacd2912152",
+   "bytes": 24611
+  },
+  {
+   "path": "oneshot/real_errors/ZONE_CRITERIA.md",
+   "source": "oneshot/real_errors/ZONE_CRITERIA.md",
+   "sha256": "0553da01c7ef8c1d2c571526ae96ec1dcd07ba699cb498163dd3db35b0ef8af6",
+   "bytes": 4156
+  },
+  {
+   "path": "oneshot/real_errors/zone_labels.csv",
+   "source": "oneshot/real_errors/zone_labels.csv",
+   "sha256": "5f0590371d580747e19dd6e8d68fce0d8520d77710b37519b786c7910216f5a0",
+   "bytes": 36061
+  },
+  {
+   "path": "oneshot/real_errors/build_disagreement.py",
+   "source": "oneshot/real_errors/build_disagreement.py",
+   "sha256": "ee1b1bce116c98c73477e78c7d073d0a69e6d233071fb7dc008dd7ca2ad5694c",
+   "bytes": 12068
+  },
+  {
+   "path": "oneshot/real_errors/build_bothsilent.py",
+   "source": "oneshot/real_errors/build_bothsilent.py",
+   "sha256": "8b1e6822418aea614c3b2ac15067d8e26bba41d61fd97c96423545df773916ad",
+   "bytes": 12950
+  },
+  {
+   "path": "oneshot/real_errors/build_corpusB.py",
+   "source": "oneshot/real_errors/build_corpusB.py",
+   "sha256": "6b5452003a62b4fc2076bed3ba852aee7bb47536aced366b5c29aceb1c635b03",
+   "bytes": 17777
+  },
+  {
+   "path": "oneshot/real_errors/frame_2023.py",
+   "source": "oneshot/real_errors/frame_2023.py",
+   "sha256": "7cd5fc94ef34ac6ba1db12e051ef17a834d45a264c1671e0a4119d9de5985aaa",
+   "bytes": 10857
+  },
+  {
+   "path": "oneshot/real_errors/eval_real.py",
+   "source": "oneshot/real_errors/eval_real.py",
+   "sha256": "3c8d1507062ba7d22afc153c59f7d61bf29005f3acbfa64a03924416cb47a3e3",
+   "bytes": 10206
+  },
+  {
+   "path": "oneshot/real_errors/eval_supportB.py",
+   "source": "oneshot/real_errors/eval_supportB.py",
+   "sha256": "1b53d90cbb7f4388ef8ee6f924cc306956b0ace4fc261f877a1d5cd324b7f624",
+   "bytes": 11128
+  },
+  {
+   "path": "oneshot/real_errors/eval_thicknessB.py",
+   "source": "oneshot/real_errors/eval_thicknessB.py",
+   "sha256": "1700645b616df0135544f1560bd0361c89656f534d47217965d53e70ae54ad19",
+   "bytes": 13630
+  },
+  {
+   "path": "oneshot/real_errors/eval_defectB.py",
+   "source": "oneshot/real_errors/eval_defectB.py",
+   "sha256": "c7b1d6a6a09e36af2987510db23a921af43b13e895f6f70f6b6841f23d508de1",
+   "bytes": 18254
+  },
+  {
+   "path": "oneshot/real_errors/eval_vjumpB.py",
+   "source": "oneshot/real_errors/eval_vjumpB.py",
+   "sha256": "f6e692d5300cff3394ca8c5d57689e9f84cef98bb046000cd759b051e4548792",
+   "bytes": 8786
+  },
+  {
+   "path": "oneshot/real_errors/eval_phaseB.py",
+   "source": "oneshot/real_errors/eval_phaseB.py",
+   "sha256": "83110d4c2cbc70e6361b8612a936d42e24521736a47d4ef12525bce2ccfc1bbb",
+   "bytes": 14241
+  },
+  {
+   "path": "oneshot/real_errors/eval_fusionB.py",
+   "source": "oneshot/real_errors/eval_fusionB.py",
+   "sha256": "91451192ea6c410fd53c71898549d6df43d27baafcee60b7e3f13a55bdf7892e",
+   "bytes": 17673
+  },
+  {
+   "path": "oneshot/real_errors/eval_fusion3B.py",
+   "source": "oneshot/real_errors/eval_fusion3B.py",
+   "sha256": "16389024eb815f4c5650b27fa6ec647331b620968db56e6bb9e2e42df0ed24fb",
+   "bytes": 12945
+  },
+  {
+   "path": "oneshot/real_errors/fusion_asymmetry.py",
+   "source": "oneshot/real_errors/fusion_asymmetry.py",
+   "sha256": "6af1422249e8fb8af0a54644840c80a663e765a5f90938db415d970ce962264d",
+   "bytes": 8330
+  },
+  {
+   "path": "oneshot/real_errors/thick_zones_b.py",
+   "source": "oneshot/real_errors/thick_zones_b.py",
+   "sha256": "7a3774fef3287bad636541c482c6c8fb42b7466b3383a687e2a0a2f5fff197ea",
+   "bytes": 6655
+  },
+  {
+   "path": "oneshot/real_errors/collect_defectB_zones.py",
+   "source": "oneshot/real_errors/collect_defectB_zones.py",
+   "sha256": "5efc382a8fd6594ab304b67fceb9bc1677f71f9e9586dc5c3194794eef420b15",
+   "bytes": 8428
+  },
+  {
+   "path": "oneshot/real_errors/census_stats.py",
+   "source": "oneshot/real_errors/census_stats.py",
+   "sha256": "4d5fe36d8df7d062d879567143f36fab4af5bde168ad8270415b37da5c689c50",
+   "bytes": 2362
+  },
+  {
+   "path": "oneshot/real_errors/band_signature.py",
+   "source": "oneshot/real_errors/band_signature.py",
+   "sha256": "6f8d66f29bc6e9935f64bd7d7c5e26b3114a3a9c10a8e99ea81c9d6e96e3d6ea",
+   "bytes": 9013
+  },
+  {
+   "path": "oneshot/real_errors/real_ci.py",
+   "source": "oneshot/real_errors/real_ci.py",
+   "sha256": "20fb5b56d2189b02fd9b87a8b6e424f48a3c10cd62519afea97fb9171e190c3a",
+   "bytes": 4011
+  },
+  {
+   "path": "oneshot/real_errors/render_zones.py",
+   "source": "oneshot/real_errors/render_zones.py",
+   "sha256": "0df3b9a5f3174583fd303a049f3769cfa46248ba9e375aa79623d16bb9325979",
+   "bytes": 11630
+  },
+  {
+   "path": "oneshot/real_errors/summarize_zones.py",
+   "source": "oneshot/real_errors/summarize_zones.py",
+   "sha256": "84f60c4ecd407b625a88ed4a2359c9453674d12297ca32ffe8164cc5b90bbe4c",
+   "bytes": 5653
+  },
+  {
+   "path": "oneshot/real_errors/ZONE_CRITERIA_B.md",
+   "source": "oneshot/real_errors/ZONE_CRITERIA_B.md",
+   "sha256": "ba0f84cff0b99eae4923cc777d77322fd52abe74c94df11e071fa9f8088eb435",
+   "bytes": 21261
+  },
+  {
+   "path": "oneshot/real_errors/ZONES_SUPPORT_B.md",
+   "source": "oneshot/real_errors/ZONES_SUPPORT_B.md",
+   "sha256": "94fd4baf57ded5712a8b2c1f04696ab00730103a647efebaf2f80d0b8b5cc737",
+   "bytes": 9842
+  },
+  {
+   "path": "oneshot/real_errors/ZONES_CENSUS_B.md",
+   "source": "oneshot/real_errors/ZONES_CENSUS_B.md",
+   "sha256": "39ec4eaeeac431f50f93b2cc8185eb7e7cd88458d29ccb3614bdcc144c2442e4",
+   "bytes": 20279
+  },
+  {
+   "path": "oneshot/real_errors/BUGREPORT_Z0136.md",
+   "source": "oneshot/real_errors/BUGREPORT_Z0136.md",
+   "sha256": "1f3ed3ae4b4b9b8c254e17bb502589d4c02884c55b51a5efd042d21f8ea7bcba",
+   "bytes": 5487
+  },
+  {
+   "path": "oneshot/real_errors/zone_labels_b.csv",
+   "source": "oneshot/real_errors/zone_labels_b.csv",
+   "sha256": "015bb61727e713deb9b2b947548d96631cc4665356af8b28ac417fe8f1863b1e",
+   "bytes": 11227
+  },
+  {
+   "path": "oneshot/real_errors/zone_labels_census_b.csv",
+   "source": "oneshot/real_errors/zone_labels_census_b.csv",
+   "sha256": "700a54ab7a0d531d5582257ea0708ff8a4f7aba32e8e1c56544f4c47f6fc5bb9",
+   "bytes": 27690
+  },
+  {
+   "path": "oneshot/real_errors/collect_supportB_zones.py",
+   "source": "oneshot/real_errors/collect_supportB_zones.py",
+   "sha256": "5ddb0b2fbdce7cfac722ac397edc4a9db57e1ea245f49103ae466a6671cc223f",
+   "bytes": 5461
+  },
+  {
+   "path": "oneshot/real_errors/collect_censusB_zones.py",
+   "source": "oneshot/real_errors/collect_censusB_zones.py",
+   "sha256": "161e5f3ecd5f238cf312535823f4f172438854d6f1f34100e3fcadf9aad90098",
+   "bytes": 3154
+  },
+  {
+   "path": "oneshot/real_errors/render_zones_b.py",
+   "source": "oneshot/real_errors/render_zones_b.py",
+   "sha256": "f2a8a9d68f21b22c65320f620723c8c0beb66d7114f7287dd26f2e42f42a7fdb",
+   "bytes": 10246
+  },
+  {
+   "path": "oneshot/real_errors/summarize_zones_b.py",
+   "source": "oneshot/real_errors/summarize_zones_b.py",
+   "sha256": "abf05d86d365b6620348682092095537cb07d5d7bd060aa915e0ef156005a241",
+   "bytes": 7245
+  },
+  {
+   "path": "oneshot/real_errors/confirm_zones_b.py",
+   "source": "oneshot/real_errors/confirm_zones_b.py",
+   "sha256": "ebd955ff9503ddf6a9597086b1107bebf10f4a782d5a8de223974349f0d9c568",
+   "bytes": 11754
+  },
+  {
+   "path": "oneshot/real_errors/band_zones_b.py",
+   "source": "oneshot/real_errors/band_zones_b.py",
+   "sha256": "cc9259c66c0040615b01b3d004426b89091df61774ce19b97b8f7a77e82a5205",
+   "bytes": 10528
+  },
+  {
+   "path": "oneshot/real_errors/density_gate_b.py",
+   "source": "oneshot/real_errors/density_gate_b.py",
+   "sha256": "447e94a9e6924e13eb757453d5c4a0284f4220ae09bab4fba0158fa248949370",
+   "bytes": 3010
+  },
+  {
+   "path": "runs/topo/corpus_paris4/manifest.json",
+   "source": "output/topo/corpus_paris4/manifest.json",
+   "sha256": "5cebae51b6537108b3e8f9100c246ce725190aedca2b0a23c62928d1122a6dac",
+   "bytes": 130995
+  },
+  {
+   "path": "runs/topo/corpus_paris4_v2/manifest.json",
+   "source": "output/topo/corpus_paris4_v2/manifest.json",
+   "sha256": "6a3b3eacda4ad7fa22408290c78463b217a4f711f170f1b6dccf209c3cb1e3d1",
+   "bytes": 145038
+  },
+  {
+   "path": "runs/topo/corpus_0139/manifest.json",
+   "source": "output/topo/corpus_0139/manifest.json",
+   "sha256": "0667156a93c59c5a5eb689a438fc1a75f9dc2d27bea0ff0ce21c282132e698b1",
+   "bytes": 133831
+  },
+  {
+   "path": "runs/topo/corpus_paris4_h2/manifest.json",
+   "source": "output/topo/corpus_paris4_h2/manifest.json",
+   "sha256": "82c71f57d8f4d185be25ca42e06e971b910361f8dec05524daaa622165c4d462",
+   "bytes": 130938
+  },
+  {
+   "path": "runs/topo/corpus_0139_h2/manifest.json",
+   "source": "output/topo/corpus_0139_h2/manifest.json",
+   "sha256": "77c14f53a7f01b283b6a98dcad3610cb53531591ddea3934ce7d45ee751cc492",
+   "bytes": 133845
+  },
+  {
+   "path": "runs/topo/detector_v0_paris4.json",
+   "source": "output/topo/detector_v0_paris4.json",
+   "sha256": "7af0da687213f30c29651451c033401665f86a8fcb8f4631e02ee42d2162341e",
+   "bytes": 619
+  },
+  {
+   "path": "runs/topo/detector_v1_paris4.json",
+   "source": "output/topo/detector_v1_paris4.json",
+   "sha256": "78655d018f03629f31a3591887cc92dd2302f80c750070a860bcf3807b2587ee",
+   "bytes": 43697
+  },
+  {
+   "path": "runs/topo/detector_v1_paris4_meshonly.json",
+   "source": "output/topo/detector_v1_paris4_meshonly.json",
+   "sha256": "9fc3c1f4381037858b8f7bc3a79faf117a7f0d478216f1283b4f19fa6b83bd9e",
+   "bytes": 29208
+  },
+  {
+   "path": "runs/topo/detector_v1_paris4_heldout.json",
+   "source": "output/topo/detector_v1_paris4_heldout.json",
+   "sha256": "200906250ccaf77827f869d982869fe829229c5ea3ec467a73800edec6bdb841",
+   "bytes": 13891
+  },
+  {
+   "path": "runs/topo/detector_v1_0139.json",
+   "source": "output/topo/detector_v1_0139.json",
+   "sha256": "e533180dca5108a94be9ab0558edcbd8135b455b636ab2a82ce8fef6bbcf5ec2",
+   "bytes": 55935
+  },
+  {
+   "path": "runs/topo/detector_v2_paris4.json",
+   "source": "output/topo/detector_v2_paris4.json",
+   "sha256": "d24684f7a5d3416d7aa1438d734d852b8fcfb39df730e121e0dabdbc9f49e3bf",
+   "bytes": 23878
+  },
+  {
+   "path": "runs/topo/detector_v3_paris4.json",
+   "source": "output/topo/detector_v3_paris4.json",
+   "sha256": "ab161ab5b5c5ec877cd37d199e86ab971f7e091b669a38ca00c1a21420e03a1b",
+   "bytes": 38744
+  },
+  {
+   "path": "runs/topo/detector_v4_paris4.json",
+   "source": "output/topo/detector_v4_paris4.json",
+   "sha256": "0caf7300b01d1ea0cb4dc5e80cb813d44a64efd83b55742e7c650dd00da12242",
+   "bytes": 30562
+  },
+  {
+   "path": "runs/topo/detector_v5_paris4.json",
+   "source": "output/topo/detector_v5_paris4.json",
+   "sha256": "80b663b29db4cf9a0bfbc4b02966080894aa8f38074aaec632c92fb0101156e3",
+   "bytes": 54068
+  },
+  {
+   "path": "runs/topo/detector_v6_paris4.json",
+   "source": "output/topo/detector_v6_paris4.json",
+   "sha256": "6d4d7e6468f2c508bc52baeb0cea8766b46d90cdf5c3a2235a13c91df6ebada1",
+   "bytes": 42676
+  },
+  {
+   "path": "runs/topo/detector_v6s_paris4.json",
+   "source": "output/topo/detector_v6s_paris4.json",
+   "sha256": "5cd7818bd7444a1ae97e4a04457e0dd7ca26cd1b7513e8897a4c6419126d4f21",
+   "bytes": 23720
+  },
+  {
+   "path": "runs/topo/detector_v7_paris4.json",
+   "source": "output/topo/detector_v7_paris4.json",
+   "sha256": "20233bf8ae9bc12951c3b3a99322d3d08af87db619cbfd68a07747e139987b77",
+   "bytes": 15167
+  },
+  {
+   "path": "runs/topo/detector_v1_paris4v2.json",
+   "source": "output/topo/detector_v1_paris4v2.json",
+   "sha256": "dc4914d77598a1fe191918fdaa972e632583f8e1a70b3dc6a79df66d4c45512e",
+   "bytes": 44612
+  },
+  {
+   "path": "runs/topo/verify_v5_report.json",
+   "source": "output/topo/verify_v5_report.json",
+   "sha256": "6c2ceeb34d0d14896d4202b8a1203825fa27b00695b31ea8dc1f3c073bbeb744",
+   "bytes": 2417
+  },
+  {
+   "path": "runs/topo/verify_v8_report.json",
+   "source": "output/topo/verify_v8_report.json",
+   "sha256": "3ef99f3944ebba7c74386c856fe901a52de1c2adec672d20a1547226d580833e",
+   "bytes": 670
+  },
+  {
+   "path": "runs/topo/coverage_breakdown_paris4.json",
+   "source": "output/topo/coverage_breakdown_paris4.json",
+   "sha256": "c8c07ba654066dbf92b91d235f842b24d7a2676e7eb132fff10f33f7125d3793",
+   "bytes": 8979
+  },
+  {
+   "path": "runs/topo/detector_v1_paris4_h2.json",
+   "source": "output/topo/detector_v1_paris4_h2.json",
+   "sha256": "e29d8f06c9dff0d5a4e9a6b23ea2b035b7760e80578f711c8bf84b41b1bdbb8d",
+   "bytes": 13143
+  },
+  {
+   "path": "runs/topo/detector_v1_0139_h2.json",
+   "source": "output/topo/detector_v1_0139_h2.json",
+   "sha256": "ab7b5f18a398563e5c86cbd946e1b59605b18ace7d778625d28f14a531ead3e4",
+   "bytes": 55921
+  },
+  {
+   "path": "runs/topo/detector_v2_paris4_h2.json",
+   "source": "output/topo/detector_v2_paris4_h2.json",
+   "sha256": "275d26ea2ef43af689a89f73b622f8d8df8cc7f89a04146783be8b699530cb77",
+   "bytes": 7130
+  },
+  {
+   "path": "runs/topo/detector_v2_0139_h2.json",
+   "source": "output/topo/detector_v2_0139_h2.json",
+   "sha256": "c668366a999237122f428398ca14360c40a2bb4244df1a2823677fc219931a35",
+   "bytes": 30281
+  },
+  {
+   "path": "runs/topo/probe_ct_paris4_h2.json",
+   "source": "output/topo/probe_ct_paris4_h2.json",
+   "sha256": "7dc492ed78126d8364d5788de8a76f3e8d34576fdfe84c808eabf4c3c9fdd2e0",
+   "bytes": 11061
+  },
+  {
+   "path": "runs/topo/probe_ct_paris4_h2_windows.jsonl",
+   "source": "output/topo/probe_ct_paris4_h2_windows.jsonl",
+   "sha256": "8465dc87791084dec8c890c55ad74d08505edc37f765648cbfd2a9da3115a429",
+   "bytes": 1195566
+  },
+  {
+   "path": "runs/topo/probe_ct_0139_h2.json",
+   "source": "output/topo/probe_ct_0139_h2.json",
+   "sha256": "e40b43a10b30ec9831b2ada49caa0b96f1ed796fafcceee21c346c80ee6e32b1",
+   "bytes": 48596
+  },
+  {
+   "path": "runs/topo/probe_ct_0139_h2_windows.jsonl",
+   "source": "output/topo/probe_ct_0139_h2_windows.jsonl",
+   "sha256": "41c941496805fa6d1a3eaf1998a8b5ad5fb370867a3caac0a139552445f00bd1",
+   "bytes": 6965527
+  },
+  {
+   "path": "runs/topo/exam_v5lu_paris4_h2.json",
+   "source": "output/topo/exam_v5lu_paris4_h2.json",
+   "sha256": "27b4e654b7dd5accb548688771717225d5a5fff000ed48847f5a2bf7ab1a4337",
+   "bytes": 5359
+  },
+  {
+   "path": "runs/topo/exam_v5lu_0139_h2.json",
+   "source": "output/topo/exam_v5lu_0139_h2.json",
+   "sha256": "e17d586aeb6551a9417f995b9c6c19fdd3bfdb7727515af56d12e7f124307bdf",
+   "bytes": 20151
+  },
+  {
+   "path": "runs/topo/baselines_paris4_h2.json",
+   "source": "output/topo/baselines_paris4_h2.json",
+   "sha256": "8d46b37247c063715b1c375991843f3fb8539916a8a0525303bea76f856cb034",
+   "bytes": 1610
+  },
+  {
+   "path": "runs/topo/baselines_0139_h2.json",
+   "source": "output/topo/baselines_0139_h2.json",
+   "sha256": "01c1876653e1ae3ad40435d438df4e1cf27efa0d6672fa02392d8367e1a8e0c7",
+   "bytes": 1438
+  },
+  {
+   "path": "runs/topo/probe_radial_paris4.json",
+   "source": "output/topo/probe_radial_paris4.json",
+   "sha256": "73c90cdc4b1dc7b7974b6639803c9863e2944aeb55c4096471bc362b64d74e97",
+   "bytes": 2915
+  },
+  {
+   "path": "runs/topo/probe_radial_paris4_v1centre.json",
+   "source": "output/topo/probe_radial_paris4_v1centre.json",
+   "sha256": "5242eca21f6c9725621f0ffd11a8054cd96f1073443d0342b369995c467b118d",
+   "bytes": 2915
+  },
+  {
+   "path": "runs/topo/probe_phase_paris4.json",
+   "source": "output/topo/probe_phase_paris4.json",
+   "sha256": "34513b65a64216a51cee98b4668c519019fb91017110e7941e5f2da5b4e8587b",
+   "bytes": 7401
+  },
+  {
+   "path": "runs/topo/probe_phase_cost_paris4.json",
+   "source": "output/topo/probe_phase_cost_paris4.json",
+   "sha256": "04662f7aa2079d68672064cc9c91da98bd004841d401426610c47f45ac7e968d",
+   "bytes": 3757
+  },
+  {
+   "path": "runs/topo/probe_defect_paris4.json",
+   "source": "output/topo/probe_defect_paris4.json",
+   "sha256": "93d60527959a2944b1ac29d2a210bcce74f68293a8aa990e7882b1ccf6d130da",
+   "bytes": 862
+  },
+  {
+   "path": "runs/topo/probe_defect_cost_paris4.json",
+   "source": "output/topo/probe_defect_cost_paris4.json",
+   "sha256": "5108486c4be392f19edc4a81a94cef41b881e3be0d049951f95e8ae4e1224db0",
+   "bytes": 44424
+  },
+  {
+   "path": "runs/topo/baselines_paris4.json",
+   "source": "output/topo/baselines_paris4.json",
+   "sha256": "9321319769111d9f167135032aac93266d7566649033d2d6f83a3f1b60187ae5",
+   "bytes": 1723
+  },
+  {
+   "path": "runs/topo/baselines_paris4_heldout.json",
+   "source": "output/topo/baselines_paris4_heldout.json",
+   "sha256": "ce943d453ce36027910773a29053dad3f6074f1e25a4bf4d4e40e67e69625638",
+   "bytes": 1648
+  },
+  {
+   "path": "runs/topo/baselines_0139.json",
+   "source": "output/topo/baselines_0139.json",
+   "sha256": "56dce0736d13c9d3f4ab3cbbed7f8bdc1af2f9f60a27b8da1ab73a99a48f539c",
+   "bytes": 1459
+  },
+  {
+   "path": "runs/topo/erl_paris4.json",
+   "source": "output/topo/erl_paris4.json",
+   "sha256": "45a441168cba998e807e01040e312d165f6235d8a876403aaea157c2609b2250",
+   "bytes": 1061
+  },
+  {
+   "path": "runs/topo/erl_jackknife.json",
+   "source": "output/topo/erl_jackknife.json",
+   "sha256": "1469455c67ecf7aa0581524c9fb89435e6afb3653c8255d5dedab9b4b0c590e7",
+   "bytes": 3860
+  },
+  {
+   "path": "runs/topo/atlas_sensitivity.json",
+   "source": "output/topo/atlas_sensitivity.json",
+   "sha256": "51c1b9515686440e9f0c6b1ebc76f30b7417ff894c9e1c0f83db25a818fc26dd",
+   "bytes": 1208
+  },
+  {
+   "path": "runs/topo/probe_ct_paris4.json",
+   "source": "output/topo/probe_ct_paris4.json",
+   "sha256": "be13e2cfed8c358bc1b3f8e0b92b41b811d9b57e4cad0cf8d5b60eebb3893b96",
+   "bytes": 37765
+  },
+  {
+   "path": "runs/topo/probe_ct_paris4_windows.jsonl",
+   "source": "output/topo/probe_ct_paris4_windows.jsonl",
+   "sha256": "0ad42383405d0887ebcec0af2d48f6cd406339cc6be4c575a24f3c6873314746",
+   "bytes": 4850988
+  },
+  {
+   "path": "runs/topo/probe_global_paris4.json",
+   "source": "output/topo/probe_global_paris4.json",
+   "sha256": "9460b957b96ae232ce58e6dae0c588381c2f7c51a5c48f73fc80c1260675018a",
+   "bytes": 972
+  },
+  {
+   "path": "runs/topo/corrector_v1_paris4.json",
+   "source": "output/topo/corrector_v1_paris4.json",
+   "sha256": "c9d4186d0eecce365d17c9f05b5bd7578b22890da472e55bc14906110417847f",
+   "bytes": 1558
+  },
+  {
+   "path": "runs/topo/corrector_v1_paris4_noscar.json",
+   "source": "output/topo/corrector_v1_paris4_noscar.json",
+   "sha256": "268493525ad0828679ee174d283342857378b336dd310afb68c1ebb8ac5e32bc",
+   "bytes": 1139
+  },
+  {
+   "path": "runs/topo/corpusB_frame.json",
+   "source": "output/topo/corpusB_frame.json",
+   "sha256": "409db24bf71e17038bd262b25ed61c00f6e9c73812203743ac6e13d64ae5ec38",
+   "bytes": 7564
+  },
+  {
+   "path": "runs/topo/real_paris4/disagreement.json",
+   "source": "output/topo/real_paris4/disagreement.json",
+   "sha256": "b1831a49443f43f0832bab78eb3031e5f196e88ea08fef1fdfb73c2969b692f6",
+   "bytes": 898556
+  },
+  {
+   "path": "runs/topo/real_paris4/bothsilent.json",
+   "source": "output/topo/real_paris4/bothsilent.json",
+   "sha256": "541ad3c9e1ef264eb308aae8aca34995b43068f07a69bd4e2d106c0d2774f00f",
+   "bytes": 673325
+  },
+  {
+   "path": "runs/topo/real_paris4/corpusB.json",
+   "source": "output/topo/real_paris4/corpusB.json",
+   "sha256": "12a0875c0aa8c56fd77dc0a842d95429bed6c00ba976fd4990e6ceaf57285469",
+   "bytes": 125331
+  },
+  {
+   "path": "runs/topo/real_paris4/corpusB_collect.json",
+   "source": "output/topo/real_paris4/corpusB_collect.json",
+   "sha256": "c81a98b8e903eca98c8f69020e0489fa9146f6cb577d272b8a97195bb4dc480b",
+   "bytes": 4117
+  },
+  {
+   "path": "runs/topo/real_paris4/eval.json",
+   "source": "output/topo/real_paris4/eval.json",
+   "sha256": "115c5ca8fee09f73901a7732c66778bbdc92d2b71f8359e6f22be34176fb2b96",
+   "bytes": 198386
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_ci.json",
+   "source": "output/topo/real_paris4/eval_ci.json",
+   "sha256": "3a03b809e36a3ddeb169272baa6ea3cc29582ecd4f178da43ceefc49ddbb35a7",
+   "bytes": 481
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_bothsilent.json",
+   "source": "output/topo/real_paris4/eval_bothsilent.json",
+   "sha256": "07dd28420ed7d39c1be0dd8c19f34274972b7effd7aca851b65bd55c68a142bf",
+   "bytes": 138964
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_corpusB.json",
+   "source": "output/topo/real_paris4/eval_corpusB.json",
+   "sha256": "7c21c40a943e3f74d2e66c8df8941d7cd96829f0c573b00390a1716a4161d225",
+   "bytes": 40586
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_corpusB_ci.json",
+   "source": "output/topo/real_paris4/eval_corpusB_ci.json",
+   "sha256": "899225abf9c38b5d62337611d325ca653911d48eae1fa6c6e6d8b393159f198f",
+   "bytes": 485
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_supportB.json",
+   "source": "output/topo/real_paris4/eval_supportB.json",
+   "sha256": "4d645a3cfef1ec8a5491bc3a9e21ed3a710c265c3be3564c977876af71322228",
+   "bytes": 6029
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_thicknessB.json",
+   "source": "output/topo/real_paris4/eval_thicknessB.json",
+   "sha256": "7504aa2f7cfe83ab03257a0db87078d370a757f8df0ebd3bf120a6ac8964e830",
+   "bytes": 3121
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_defectB.json",
+   "source": "output/topo/real_paris4/eval_defectB.json",
+   "sha256": "d205fbc1e0489b57b42ad7cb85ec1e1d69a1bd8fecd0ce649a110f3b01ca30a7",
+   "bytes": 9876
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_vjumpB.json",
+   "source": "output/topo/real_paris4/eval_vjumpB.json",
+   "sha256": "7f028e58574f31e4292356643f073ffafe3e9387213149b04c688acc270ea40a",
+   "bytes": 2355
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_fusionB.json",
+   "source": "output/topo/real_paris4/eval_fusionB.json",
+   "sha256": "1c658b26265ef1a3cb99f9e7af7722755343b0d082a88e8578de99e7d6fc034e",
+   "bytes": 10791
+  },
+  {
+   "path": "runs/topo/real_paris4/eval_fusion3B.json",
+   "source": "output/topo/real_paris4/eval_fusion3B.json",
+   "sha256": "f6e0b2808aea71b790c03682ecbf3953dedb41e9f9147249ce4b641c3a3cbaf4",
+   "bytes": 8075
+  },
+  {
+   "path": "runs/topo/real_paris4/fusion_asymmetry.json",
+   "source": "output/topo/real_paris4/fusion_asymmetry.json",
+   "sha256": "ce25cb172e524dea4b7045bc183a35ad087b241a72b6c42327d05dcb91bbd595",
+   "bytes": 1299
+  },
+  {
+   "path": "runs/topo/real_paris4/supportB_zones.json",
+   "source": "output/topo/real_paris4/supportB_zones.json",
+   "sha256": "4c19a28c8bfbbc1f320423f06fcf144a9abb2f098102d0b702c141f72c416e9a",
+   "bytes": 11235
+  },
+  {
+   "path": "runs/topo/real_paris4/thickB_zones.json",
+   "source": "output/topo/real_paris4/thickB_zones.json",
+   "sha256": "eda2d20a3e98a447ec2907ffe793c37ede05840814a156e8c56854dfd4cc9223",
+   "bytes": 12721
+  },
+  {
+   "path": "runs/topo/real_paris4/defectB_zones.json",
+   "source": "output/topo/real_paris4/defectB_zones.json",
+   "sha256": "df5af19a7335fb1ac9311326f5333c258024ee4f3df07359ac78f8f5f979d18f",
+   "bytes": 6772
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_band_defect/band_meta.json",
+   "source": "output/topo/real_paris4/zones_band_defect/band_meta.json",
+   "sha256": "794319fc92a971ed744a04a86dfba5aa85f0aadea01c4ed59e86991c9e5b5440",
+   "bytes": 2853
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_band_defect/band_labels_defect.csv",
+   "source": "output/topo/real_paris4/zones_band_defect/band_labels_defect.csv",
+   "sha256": "7ac801a246b37a429124eaefafedc85744f0dd032a5981c4c7da29e5db25094e",
+   "bytes": 7002
+  },
+  {
+   "path": "runs/topo/real_paris4/censusB_zones.json",
+   "source": "output/topo/real_paris4/censusB_zones.json",
+   "sha256": "030cb19ea5dc99b147c2dafd4b878b0956c6a70ffdede4c3064f437cf443aa09",
+   "bytes": 23540
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_png_b_confirm/confirm_meta.json",
+   "source": "output/topo/real_paris4/zones_png_b_confirm/confirm_meta.json",
+   "sha256": "695b135500e8a58eb2f359722e1df6cf96d1c13f0ec9230197aa02496651c710",
+   "bytes": 2891
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_png_b_confirm/confirm_labels_b.csv",
+   "source": "output/topo/real_paris4/zones_png_b_confirm/confirm_labels_b.csv",
+   "sha256": "3feacd895b2ba8a619967b50b1bd7ad480089f5ab00cccfb7d24fb0a64eb225f",
+   "bytes": 2901
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_band_b/band_meta.json",
+   "source": "output/topo/real_paris4/zones_band_b/band_meta.json",
+   "sha256": "75a8921929b4cde087acb20496c83e368e8673991489eb95bf34757d8f2e8770",
+   "bytes": 809
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_band_b/band_labels_b.csv",
+   "source": "output/topo/real_paris4/zones_band_b/band_labels_b.csv",
+   "sha256": "d1b1012350170c6d443f35968a1eb8ac83e0b4450284bd7db1065050a78d3fe2",
+   "bytes": 2109
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_png/zones_meta.json",
+   "source": "output/topo/real_paris4/zones_png/zones_meta.json",
+   "sha256": "0502870765411d637e92f5d87b3fe488bd0ed7bf07be5a98a01629814a4601c0",
+   "bytes": 27973
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_png_b/zones_meta.json",
+   "source": "output/topo/real_paris4/zones_png_b/zones_meta.json",
+   "sha256": "be0c55de86e1811df5e8aced09136d5ad88ddfb42b716deac5d52681bb13f99f",
+   "bytes": 11557
+  },
+  {
+   "path": "runs/topo/real_paris4/zones_png_census_b/zones_meta.json",
+   "source": "output/topo/real_paris4/zones_png_census_b/zones_meta.json",
+   "sha256": "cafc6de43eb91e6212fada0dfd93a0891dc09d788d2c0b68c0e8241fd2c8bf88",
+   "bytes": 24531
+  },
+  {
+   "path": "runs/topo/real_paris4/densityB.json",
+   "source": "output/topo/real_paris4/densityB.json",
+   "sha256": "70bc34725d36d493c0b807c891484767a1ed4f584aeee8a62299418a2bd3fb79",
+   "bytes": 751
+  }
+ ]
+}

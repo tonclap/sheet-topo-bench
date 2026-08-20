@@ -1,0 +1,61 @@
+{
+ "declaration": "fusion_asymmetry.py header, committed before the run (TOPO-050, twenty-seventh session)",
+ "fractions": {
+  "0.05": {
+   "ap_iqr": [
+    0.02171811885820974,
+    0.02254138513515432
+   ],
+   "ap_median": 0.02174532184266885,
+   "n_seeds": 20,
+   "prox_pool": 284
+  },
+  "0.1": {
+   "ap_iqr": [
+    0.01443967852446579,
+    0.01552622652696099
+   ],
+   "ap_median": 0.015081055356738869,
+   "n_seeds": 20,
+   "prox_pool": 568
+  },
+  "0.25": {
+   "ap_iqr": [
+    0.006325694405250165,
+    0.0069192615844067655
+   ],
+   "ap_median": 0.006600916380298249,
+   "n_seeds": 20,
+   "prox_pool": 1420
+  },
+  "0.5": {
+   "ap_iqr": [
+    0.002522593457047008,
+    0.002863441189585705
+   ],
+   "ap_median": 0.00279713347845199,
+   "n_seeds": 20,
+   "prox_pool": 2841
+  },
+  "1.0": {
+   "ap_iqr": [
+    0.0011576357843798247,
+    0.0011576357843798247
+   ],
+   "ap_median": 0.0011576357843798247,
+   "n_seeds": 1,
+   "prox_pool": 5682
+  }
+ },
+ "monotone_recovery": true,
+ "pools": {
+  "prox": 5682,
+  "support": 793
+ },
+ "published": {
+  "frozen_merge": 0.0011576357843798247,
+  "support_solo": 0.032969640280479925
+ },
+ "reading_rule": "dilution iff monotone recovery and AP(0.05) >= 0.5x support solo; percentile_form iff AP(0.05) <= 0.1x support solo; else mixed",
+ "verdict": "dilution"
+}

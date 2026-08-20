@@ -1,0 +1,35 @@
+# The full pipeline: fetching volumes, rebuilding corpora, re-running the
+# detector and the figures. For `verify.py` alone install the three packages
+# of requirements-verify.txt instead — that path needs no network and no part
+# of what follows.
+
+-r requirements-verify.txt
+
+# scipy — pinned to versions this package has been run green on, split the
+# same way and for the same reason as the light path (1.15.3 has no wheel for
+# 3.14). Verified by `census_stats.py`, which reads only shipped label CSVs
+# and reproduces the census numbers of the README exactly — 0/121 real_error
+# [Wilson 95% 0.0-3.1%] against 4/57, Fisher two-sided p = 0.0098:
+#
+#   CPython 3.10.6  scipy 1.15.3   (also the version that produced the runs)
+#   CPython 3.11.15 scipy 1.15.3
+#   CPython 3.14.7  scipy 1.18.0
+#
+# The two scipy majors agree to the last published digit, and so does the
+# scipy-free reimplementation in `verify.py` (`_fisher_two_sided`,
+# `_wilson_upper`) — the p-value is bound three ways, not one.
+scipy==1.15.3 ; python_version < "3.12"
+scipy==1.18.0 ; python_version >= "3.12"
+
+# imagecodecs and matplotlib are NOT pinned to a verified combination, and the
+# difference is deliberate. Neither has been exercised by a run in a checked
+# environment: matplotlib only renders the zone cards, which this package does
+# not ship, and imagecodecs is never imported at all — it is a tifffile codec
+# backend, needed to read the LZW tifs of `frame_2023.py`. The versions below
+# are those of the interpreter that produced the published runs (CPython 3.10),
+# recorded as a starting point rather than claimed as tested. imagecodecs
+# 2025.3.30 ships wheels only up to cp313, so on 3.14+ the pin would force a
+# source build of dozens of C codecs — there the name is left unpinned.
+imagecodecs==2025.3.30 ; python_version < "3.14"
+imagecodecs ; python_version >= "3.14"
+matplotlib==3.10.9

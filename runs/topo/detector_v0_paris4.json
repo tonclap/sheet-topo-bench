@@ -1,0 +1,20 @@
+{
+ "bands": "dev",
+ "corpus": "E:\\VSCode\\media-banger-repos\\vesuvius-progress-prize\\output\\topo\\corpus_paris4",
+ "dead_variant": "radius-vs-running-median residual: AP 0.0000 on this corpus; row parameterisation jitter (14-40 vx per ~48 vx column step) drowns a ~25 vx anomaly",
+ "detector": "v0 ray-ladder collisions + hole-edge",
+ "metrics": {
+  "ap": 0.0,
+  "delta_erl_mm": 0.0,
+  "erl_after_cuts_mm": 433.00917411395176,
+  "erl_broken_mm": 433.00917411395176,
+  "recall_at_n": 0.0
+ },
+ "recall_by_type": {
+  "H": 0.0,
+  "M": 0.0,
+  "S": 0.0
+ },
+ "recall_on_locally_plausible": 0.0,
+ "scoped_injections": 232
+}

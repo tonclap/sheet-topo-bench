@@ -1,0 +1,49 @@
+{
+ "bands": "dev",
+ "channel_pool": "v1 (prox+rect+support), frozen",
+ "corpus": "E:\\VSCode\\media-banger-repos\\vesuvius-progress-prize\\output\\topo\\corpus_paris4",
+ "corrector": "v1 zone-model cuts, NO-SCAR sensitivity (post hoc, 17.08.2026): hit = perfect resew, false = scar",
+ "erl_broken_mm": 433.00917411395176,
+ "erl_pristine_mm": 445.40623749045886,
+ "false_cut_rows": 12,
+ "oracle": {
+  "delta_erl_mm": 12.397063376507106,
+  "harmful_cuts": 0,
+  "helpful_cuts": 232,
+  "k": 232
+ },
+ "random": {},
+ "repair_model": "no-scar",
+ "skeleton_total_mm": 5367779.147059171,
+ "summary": {
+  "best_delta_erl_mm": 1.5968334899055776,
+  "best_k": 232,
+  "oracle_share": 0.12880739909192013
+ },
+ "sweep": [
+  {
+   "delta_erl_mm": 1.3479431533965567,
+   "harmful_cuts": 31,
+   "helpful_cuts": 85,
+   "k": 116
+  },
+  {
+   "delta_erl_mm": 1.5968334899055776,
+   "harmful_cuts": 70,
+   "helpful_cuts": 162,
+   "k": 232
+  },
+  {
+   "delta_erl_mm": -0.223597412219533,
+   "harmful_cuts": 105,
+   "helpful_cuts": 199,
+   "k": 464
+  },
+  {
+   "delta_erl_mm": -0.223597412219533,
+   "harmful_cuts": 105,
+   "helpful_cuts": 199,
+   "k": 928
+  }
+ ]
+}

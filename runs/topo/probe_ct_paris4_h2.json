@@ -1,0 +1,637 @@
+{
+ "bands": "heldout",
+ "calibration": {
+  "air": {
+   "n": 11270,
+   "q0.1": 26.0,
+   "q0.25": 33.0,
+   "q0.5": 38.0,
+   "q0.75": 46.0,
+   "q0.9": 75.0
+  },
+  "papyrus": {
+   "n": 11179,
+   "q0.1": 44.0,
+   "q0.25": 50.0,
+   "q0.5": 122.0,
+   "q0.75": 140.0,
+   "q0.9": 152.0
+  },
+  "threshold": 80.0
+ },
+ "coverage": {
+  "H_all": {
+   "covered": 0,
+   "n": 23,
+   "share": 0.0
+  },
+  "M_all": {
+   "covered": 6,
+   "n": 19,
+   "share": 0.3158
+  },
+  "M_found_by_v1": {
+   "covered": 6,
+   "n": 9,
+   "share": 0.6667
+  },
+  "M_missed_by_v1": {
+   "covered": 0,
+   "n": 10,
+   "share": 0.0
+  },
+  "M_plausible_missed": {
+   "covered": 0,
+   "n": 4,
+   "share": 0.0
+  },
+  "S_all": {
+   "covered": 5,
+   "n": 21,
+   "share": 0.2381
+  },
+  "all_missed_by_v1": {
+   "covered": 0,
+   "n": 18,
+   "share": 0.0
+  }
+ },
+ "decision_build_channel": false,
+ "decision_rule": "build the channel iff M_missed_by_v1 coverage >= 0.333 (declared in advance)",
+ "margins": [
+  2,
+  8
+ ],
+ "n_injections": 63,
+ "per_window": {
+  "H021": {
+   "clusters": 0,
+   "evidence_nodes": 12,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 13,
+   "type": "H"
+  },
+  "H022": {
+   "clusters": 0,
+   "evidence_nodes": 1,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 4,
+   "type": "H"
+  },
+  "H023": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "H"
+  },
+  "H024": {
+   "clusters": 0,
+   "evidence_nodes": 5,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 5,
+   "type": "H"
+  },
+  "H025": {
+   "clusters": 0,
+   "evidence_nodes": 4,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 14,
+   "type": "H"
+  },
+  "H026": {
+   "clusters": 0,
+   "evidence_nodes": 11,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 11,
+   "type": "H"
+  },
+  "H027": {
+   "clusters": 0,
+   "evidence_nodes": 9,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 9,
+   "type": "H"
+  },
+  "H028": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "H"
+  },
+  "H050": {
+   "clusters": 0,
+   "evidence_nodes": 11,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 12,
+   "type": "H"
+  },
+  "H051": {
+   "clusters": 0,
+   "evidence_nodes": 13,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 17,
+   "type": "H"
+  },
+  "H052": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "H"
+  },
+  "H053": {
+   "clusters": 0,
+   "evidence_nodes": 14,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 16,
+   "type": "H"
+  },
+  "H054": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "H"
+  },
+  "H055": {
+   "clusters": 0,
+   "evidence_nodes": 9,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 14,
+   "type": "H"
+  },
+  "H056": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "H"
+  },
+  "H079": {
+   "clusters": 0,
+   "evidence_nodes": 4,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 10,
+   "type": "H"
+  },
+  "H080": {
+   "clusters": 0,
+   "evidence_nodes": 1,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 2,
+   "type": "H"
+  },
+  "H081": {
+   "clusters": 0,
+   "evidence_nodes": 22,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 27,
+   "type": "H"
+  },
+  "H082": {
+   "clusters": 0,
+   "evidence_nodes": 15,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 16,
+   "type": "H"
+  },
+  "H083": {
+   "clusters": 0,
+   "evidence_nodes": 4,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 5,
+   "type": "H"
+  },
+  "H084": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "H"
+  },
+  "H085": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "H"
+  },
+  "H086": {
+   "clusters": 0,
+   "evidence_nodes": 2,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 2,
+   "type": "H"
+  },
+  "M019": {
+   "clusters": 0,
+   "evidence_nodes": 3,
+   "masked": 0,
+   "missed": true,
+   "plausible": true,
+   "pristine_nodes": 3,
+   "type": "M"
+  },
+  "M020": {
+   "clusters": 0,
+   "evidence_nodes": 8,
+   "masked": 0,
+   "missed": false,
+   "plausible": true,
+   "pristine_nodes": 9,
+   "type": "M"
+  },
+  "M021": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 1,
+   "type": "M"
+  },
+  "M022": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": true,
+   "pristine_nodes": 0,
+   "type": "M"
+  },
+  "M023": {
+   "clusters": 1,
+   "evidence_nodes": 40,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 43,
+   "type": "M"
+  },
+  "M043": {
+   "clusters": 0,
+   "evidence_nodes": 3,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 3,
+   "type": "M"
+  },
+  "M044": {
+   "clusters": 1,
+   "evidence_nodes": 13,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 9,
+   "type": "M"
+  },
+  "M045": {
+   "clusters": 1,
+   "evidence_nodes": 4,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 3,
+   "type": "M"
+  },
+  "M046": {
+   "clusters": 0,
+   "evidence_nodes": 8,
+   "masked": 0,
+   "missed": false,
+   "plausible": true,
+   "pristine_nodes": 9,
+   "type": "M"
+  },
+  "M067": {
+   "clusters": 0,
+   "evidence_nodes": 19,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 23,
+   "type": "M"
+  },
+  "M068": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "M"
+  },
+  "M069": {
+   "clusters": 1,
+   "evidence_nodes": 16,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 15,
+   "type": "M"
+  },
+  "M070": {
+   "clusters": 0,
+   "evidence_nodes": 15,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 15,
+   "type": "M"
+  },
+  "M071": {
+   "clusters": 0,
+   "evidence_nodes": 4,
+   "masked": 0,
+   "missed": true,
+   "plausible": true,
+   "pristine_nodes": 4,
+   "type": "M"
+  },
+  "M072": {
+   "clusters": 0,
+   "evidence_nodes": 1,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 1,
+   "type": "M"
+  },
+  "M073": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "M"
+  },
+  "M095": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": true,
+   "pristine_nodes": 0,
+   "type": "M"
+  },
+  "M096": {
+   "clusters": 1,
+   "evidence_nodes": 9,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 9,
+   "type": "M"
+  },
+  "M097": {
+   "clusters": 2,
+   "evidence_nodes": 17,
+   "masked": 0,
+   "missed": false,
+   "plausible": true,
+   "pristine_nodes": 18,
+   "type": "M"
+  },
+  "S020": {
+   "clusters": 1,
+   "evidence_nodes": 25,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 28,
+   "type": "S"
+  },
+  "S021": {
+   "clusters": 0,
+   "evidence_nodes": 10,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 10,
+   "type": "S"
+  },
+  "S022": {
+   "clusters": 0,
+   "evidence_nodes": 30,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 32,
+   "type": "S"
+  },
+  "S023": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "S"
+  },
+  "S024": {
+   "clusters": 1,
+   "evidence_nodes": 44,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 45,
+   "type": "S"
+  },
+  "S045": {
+   "clusters": 0,
+   "evidence_nodes": 24,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 24,
+   "type": "S"
+  },
+  "S046": {
+   "clusters": 0,
+   "evidence_nodes": 13,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 13,
+   "type": "S"
+  },
+  "S047": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": true,
+   "pristine_nodes": 0,
+   "type": "S"
+  },
+  "S048": {
+   "clusters": 1,
+   "evidence_nodes": 17,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 18,
+   "type": "S"
+  },
+  "S049": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "S"
+  },
+  "S050": {
+   "clusters": 0,
+   "evidence_nodes": 21,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 21,
+   "type": "S"
+  },
+  "S071": {
+   "clusters": 0,
+   "evidence_nodes": 8,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 8,
+   "type": "S"
+  },
+  "S072": {
+   "clusters": 0,
+   "evidence_nodes": 7,
+   "masked": 0,
+   "missed": false,
+   "plausible": true,
+   "pristine_nodes": 7,
+   "type": "S"
+  },
+  "S073": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "S"
+  },
+  "S074": {
+   "clusters": 0,
+   "evidence_nodes": 4,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 4,
+   "type": "S"
+  },
+  "S075": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "S"
+  },
+  "S076": {
+   "clusters": 1,
+   "evidence_nodes": 36,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 35,
+   "type": "S"
+  },
+  "S077": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "S"
+  },
+  "S078": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "S"
+  },
+  "S098": {
+   "clusters": 1,
+   "evidence_nodes": 16,
+   "masked": 0,
+   "missed": false,
+   "plausible": false,
+   "pristine_nodes": 16,
+   "type": "S"
+  },
+  "S099": {
+   "clusters": 0,
+   "evidence_nodes": 0,
+   "masked": 0,
+   "missed": true,
+   "plausible": false,
+   "pristine_nodes": 0,
+   "type": "S"
+  }
+ },
+ "probe": "ct-intensity radial profile (TOPO-026); node evidence = in-air trace flanked by papyrus both radial sides",
+ "v1_found": 45
+}

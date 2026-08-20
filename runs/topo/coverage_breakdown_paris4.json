@@ -1,0 +1,630 @@
+{
+ "bands": "dev",
+ "corpus": "E:\\VSCode\\media-banger-repos\\vesuvius-progress-prize\\output\\topo\\corpus_paris4",
+ "coverage": {
+  "union": 210,
+  "v1": 199
+ },
+ "ct_sweep": {
+  "frozen_surplus_min": 0.5,
+  "frozen_threshold": 80.0,
+  "rows": [
+   {
+    "by_type": {
+     "H": 0,
+     "M": 1,
+     "S": 0
+    },
+    "covered_of_uncovered": [
+     "M013"
+    ],
+    "ct_pool": 76,
+    "n_covered": 1,
+    "surplus_min": 0.5,
+    "threshold": 64.0
+   },
+   {
+    "by_type": {
+     "H": 0,
+     "M": 0,
+     "S": 0
+    },
+    "covered_of_uncovered": [],
+    "ct_pool": 85,
+    "n_covered": 0,
+    "surplus_min": 0.5,
+    "threshold": 72.0
+   },
+   {
+    "by_type": {
+     "H": 0,
+     "M": 0,
+     "S": 0
+    },
+    "covered_of_uncovered": [],
+    "ct_pool": 93,
+    "n_covered": 0,
+    "surplus_min": 0.5,
+    "threshold": 80.0
+   },
+   {
+    "by_type": {
+     "H": 0,
+     "M": 3,
+     "S": 0
+    },
+    "covered_of_uncovered": [
+     "M011",
+     "M069",
+     "M092"
+    ],
+    "ct_pool": 101,
+    "n_covered": 3,
+    "surplus_min": 0.5,
+    "threshold": 88.0
+   },
+   {
+    "by_type": {
+     "H": 0,
+     "M": 5,
+     "S": 1
+    },
+    "covered_of_uncovered": [
+     "M002",
+     "M011",
+     "M019",
+     "M090",
+     "M092",
+     "S063"
+    ],
+    "ct_pool": 115,
+    "n_covered": 6,
+    "surplus_min": 0.5,
+    "threshold": 96.0
+   },
+   {
+    "by_type": {
+     "H": 0,
+     "M": 0,
+     "S": 0
+    },
+    "covered_of_uncovered": [],
+    "ct_pool": 93,
+    "n_covered": 0,
+    "surplus_min": 0.25,
+    "threshold": 80.0
+   }
+  ]
+ },
+ "not_estimable_offline": "prox/rect/support floor relaxation — the v2 checkpoints store post-floor candidates only; requires regeneration (TOPO-038)",
+ "pool_sizes": {
+  "ct": 93,
+  "union": 339,
+  "v1": 304
+ },
+ "question": "TOPO-036: composition of the union pool's uncovered injections and the cheap-extension upper bound",
+ "scoped_injections": 232,
+ "uncovered_union": {
+  "rows": [
+   {
+    "band": 2,
+    "cols": [
+     1106,
+     1110
+    ],
+    "id": "M002",
+    "plausible": true,
+    "rows": [
+     78,
+     87
+    ],
+    "segment": "20260701183125-w028-037",
+    "type": "M"
+   },
+   {
+    "band": 5,
+    "cols": [
+     1116,
+     1124
+    ],
+    "id": "M010",
+    "plausible": true,
+    "rows": [
+     232,
+     235
+    ],
+    "segment": "20260701183129-w059-063",
+    "type": "M"
+   },
+   {
+    "band": 5,
+    "cols": [
+     1093,
+     1127
+    ],
+    "id": "M011",
+    "plausible": false,
+    "rows": [
+     530,
+     534
+    ],
+    "segment": "20260701183128-w053-058",
+    "type": "M"
+   },
+   {
+    "band": 6,
+    "cols": [
+     1349,
+     1353
+    ],
+    "id": "M013",
+    "plausible": true,
+    "rows": [
+     531,
+     534
+    ],
+    "segment": "20260701183130-w064-068",
+    "type": "M"
+   },
+   {
+    "band": 8,
+    "cols": [
+     1167,
+     1171
+    ],
+    "id": "M015",
+    "plausible": false,
+    "rows": [
+     81,
+     84
+    ],
+    "segment": "20260701183134-w081-084",
+    "type": "M"
+   },
+   {
+    "band": 9,
+    "cols": [
+     703,
+     707
+    ],
+    "id": "M019",
+    "plausible": true,
+    "rows": [
+     681,
+     684
+    ],
+    "segment": "20260701183139-w098-100",
+    "type": "M"
+   },
+   {
+    "band": 3,
+    "cols": [
+     1262,
+     1266
+    ],
+    "id": "M031",
+    "plausible": false,
+    "rows": [
+     78,
+     87
+    ],
+    "segment": "20260701183126-w038-045",
+    "type": "M"
+   },
+   {
+    "band": 9,
+    "cols": [
+     367,
+     372
+    ],
+    "id": "M046",
+    "plausible": true,
+    "rows": [
+     379,
+     385
+    ],
+    "segment": "20260701183139-w098-100",
+    "type": "M"
+   },
+   {
+    "band": 1,
+    "cols": [
+     1349,
+     1354
+    ],
+    "id": "M054",
+    "plausible": true,
+    "rows": [
+     381,
+     384
+    ],
+    "segment": "20260701183124-w010-027",
+    "type": "M"
+   },
+   {
+    "band": 2,
+    "cols": [
+     345,
+     350
+    ],
+    "id": "M056",
+    "plausible": true,
+    "rows": [
+     380,
+     387
+    ],
+    "segment": "20260701183125-w028-037",
+    "type": "M"
+   },
+   {
+    "band": 7,
+    "cols": [
+     257,
+     285
+    ],
+    "id": "M067",
+    "plausible": true,
+    "rows": [
+     531,
+     534
+    ],
+    "segment": "20260701183133-w077-080",
+    "type": "M"
+   },
+   {
+    "band": 8,
+    "cols": [
+     311,
+     316
+    ],
+    "id": "M068",
+    "plausible": true,
+    "rows": [
+     233,
+     234
+    ],
+    "segment": "20260701183136-w089-091",
+    "type": "M"
+   },
+   {
+    "band": 8,
+    "cols": [
+     403,
+     410
+    ],
+    "id": "M069",
+    "plausible": false,
+    "rows": [
+     677,
+     687
+    ],
+    "segment": "20260701183135-w085-088",
+    "type": "M"
+   },
+   {
+    "band": 9,
+    "cols": [
+     965,
+     971
+    ],
+    "id": "M071",
+    "plausible": true,
+    "rows": [
+     680,
+     685
+    ],
+    "segment": "20260701183137-w092-094",
+    "type": "M"
+   },
+   {
+    "band": 6,
+    "cols": [
+     1358,
+     1368
+    ],
+    "id": "M090",
+    "plausible": true,
+    "rows": [
+     681,
+     685
+    ],
+    "segment": "20260701183131-w069-072",
+    "type": "M"
+   },
+   {
+    "band": 7,
+    "cols": [
+     753,
+     761
+    ],
+    "id": "M092",
+    "plausible": true,
+    "rows": [
+     530,
+     535
+    ],
+    "segment": "20260701183133-w077-080",
+    "type": "M"
+   },
+   {
+    "band": 8,
+    "cols": [
+     1493,
+     1497
+    ],
+    "id": "M094",
+    "plausible": false,
+    "rows": [
+     681,
+     684
+    ],
+    "segment": "20260701183135-w085-088",
+    "type": "M"
+   },
+   {
+    "band": 2,
+    "cols": [
+     1018,
+     1024
+    ],
+    "id": "S027",
+    "plausible": true,
+    "rows": [
+     80,
+     84
+    ],
+    "segment": "20260701183125-w028-037",
+    "type": "S"
+   },
+   {
+    "band": 3,
+    "cols": [
+     1196,
+     1229
+    ],
+    "id": "S029",
+    "plausible": false,
+    "rows": [
+     81,
+     84
+    ],
+    "segment": "20260701183126-w038-045",
+    "type": "S"
+   },
+   {
+    "band": 8,
+    "cols": [
+     1016,
+     1020
+    ],
+    "id": "S041",
+    "plausible": true,
+    "rows": [
+     80,
+     84
+    ],
+    "segment": "20260701183135-w085-088",
+    "type": "S"
+   },
+   {
+    "band": 9,
+    "cols": [
+     515,
+     519
+    ],
+    "id": "S044",
+    "plausible": false,
+    "rows": [
+     233,
+     234
+    ],
+    "segment": "20260701183139-w098-100",
+    "type": "S"
+   },
+   {
+    "band": 8,
+    "cols": [
+     1370,
+     1374
+    ],
+    "id": "S063",
+    "plausible": false,
+    "rows": [
+     79,
+     85
+    ],
+    "segment": "20260701183135-w085-088",
+    "type": "S"
+   }
+  ],
+  "summary": {
+   "by_band": {
+    "w010-019": 1,
+    "w020-029": 3,
+    "w030-039": 2,
+    "w050-059": 2,
+    "w060-069": 2,
+    "w070-079": 2,
+    "w080-089": 6,
+    "w090-099": 4
+   },
+   "by_type": {
+    "H": 0,
+    "M": 17,
+    "S": 5
+   },
+   "n": 22,
+   "plausible": 14
+  }
+ },
+ "uncovered_v1": {
+  "ids": [
+   "M001",
+   "M002",
+   "M010",
+   "M011",
+   "M012",
+   "M013",
+   "M015",
+   "M017",
+   "M019",
+   "M031",
+   "M046",
+   "M054",
+   "M056",
+   "M064",
+   "M067",
+   "M068",
+   "M069",
+   "M070",
+   "M071",
+   "M082",
+   "M086",
+   "M090",
+   "M091",
+   "M092",
+   "M094",
+   "S027",
+   "S029",
+   "S032",
+   "S040",
+   "S041",
+   "S044",
+   "S063",
+   "S099"
+  ],
+  "summary": {
+   "by_band": {
+    "w010-019": 3,
+    "w020-029": 3,
+    "w030-039": 3,
+    "w040-049": 2,
+    "w050-059": 2,
+    "w060-069": 4,
+    "w070-079": 4,
+    "w080-089": 7,
+    "w090-099": 5
+   },
+   "by_type": {
+    "H": 0,
+    "M": 25,
+    "S": 8
+   },
+   "n": 33,
+   "plausible": 23
+  }
+ },
+ "v5lu_misses": {
+  "below_n": [
+   {
+    "band": 7,
+    "id": "H072",
+    "plausible": null,
+    "rank": null,
+    "type": "H"
+   },
+   {
+    "band": 4,
+    "id": "M034",
+    "plausible": true,
+    "rank": 234,
+    "type": "M"
+   },
+   {
+    "band": 7,
+    "id": "M041",
+    "plausible": true,
+    "rank": 334,
+    "type": "M"
+   },
+   {
+    "band": 3,
+    "id": "S004",
+    "plausible": false,
+    "rank": 247,
+    "type": "S"
+   },
+   {
+    "band": 4,
+    "id": "S032",
+    "plausible": true,
+    "rank": 233,
+    "type": "S"
+   },
+   {
+    "band": 5,
+    "id": "S035",
+    "plausible": false,
+    "rank": 259,
+    "type": "S"
+   },
+   {
+    "band": 8,
+    "id": "S043",
+    "plausible": true,
+    "rank": 333,
+    "type": "S"
+   },
+   {
+    "band": 1,
+    "id": "S051",
+    "plausible": true,
+    "rank": 283,
+    "type": "S"
+   },
+   {
+    "band": 1,
+    "id": "S052",
+    "plausible": false,
+    "rank": 260,
+    "type": "S"
+   },
+   {
+    "band": 5,
+    "id": "S057",
+    "plausible": false,
+    "rank": 276,
+    "type": "S"
+   },
+   {
+    "band": 4,
+    "id": "S079",
+    "plausible": true,
+    "rank": 336,
+    "type": "S"
+   },
+   {
+    "band": 7,
+    "id": "S085",
+    "plausible": false,
+    "rank": 282,
+    "type": "S"
+   }
+  ],
+  "no_candidate": [
+   "M002",
+   "M010",
+   "M011",
+   "M013",
+   "M015",
+   "M019",
+   "M031",
+   "M046",
+   "M054",
+   "M056",
+   "M067",
+   "M068",
+   "M069",
+   "M071",
+   "M090",
+   "M092",
+   "M094",
+   "S027",
+   "S029",
+   "S041",
+   "S044",
+   "S063"
+  ],
+  "total": 34
+ }
+}

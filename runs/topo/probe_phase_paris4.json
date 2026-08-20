@@ -1,0 +1,364 @@
+{
+ "center_floor": 0.25,
+ "covered": {
+  "loose": {
+   "by_type": {
+    "M": 4,
+    "S": 2
+   },
+   "ids": [
+    "M002",
+    "M067",
+    "M090",
+    "M092",
+    "S044",
+    "S063"
+   ],
+   "n": 6
+  },
+  "primary": {
+   "by_type": {
+    "M": 3,
+    "S": 2
+   },
+   "ids": [
+    "M002",
+    "M067",
+    "M090",
+    "S044",
+    "S063"
+   ],
+   "n": 5
+  },
+  "tight": {
+   "by_type": {
+    "M": 3,
+    "S": 2
+   },
+   "ids": [
+    "M002",
+    "M010",
+    "M090",
+    "S044",
+    "S063"
+   ],
+   "n": 5
+  }
+ },
+ "decision_build_channel": false,
+ "decision_rule": "build the channel iff >= 8 of 22 windows carry a surviving cluster (declared in advance)",
+ "declaration": "probe_phase.py header, committed before the run (TOPO-048, twenty-sixth session); T and doubling floor frozen from TOPO-026/046",
+ "n_windows": 22,
+ "offsets_vx": [
+  -36.0,
+  36.0
+ ],
+ "per_window": {
+  "M002": {
+   "air_share": 0.1346,
+   "clusters_loose": 1,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 1,
+   "clusters_tight": 1,
+   "nodes": 260,
+   "phase_mute_share": 0.0231,
+   "plausible": true,
+   "reference_vx": 14.0,
+   "type": "M"
+  },
+  "M010": {
+   "air_share": 0.1905,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 0,
+   "clusters_tight": 1,
+   "nodes": 168,
+   "phase_mute_share": 0.0,
+   "plausible": true,
+   "reference_vx": 17.0,
+   "type": "M"
+  },
+  "M011": {
+   "air_share": 0.3025,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 3,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 400,
+   "phase_mute_share": 0.0,
+   "plausible": false,
+   "reference_vx": 9.0,
+   "type": "M"
+  },
+  "M013": {
+   "air_share": 0.4929,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 140,
+   "phase_mute_share": 0.0,
+   "plausible": true,
+   "reference_vx": 15.0,
+   "type": "M"
+  },
+  "M015": {
+   "air_share": 0.0643,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 140,
+   "phase_mute_share": 0.3143,
+   "plausible": false,
+   "reference_vx": 50.0,
+   "type": "M"
+  },
+  "M019": {
+   "air_share": 0.25,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 140,
+   "phase_mute_share": 0.0,
+   "plausible": true,
+   "reference_vx": 14.0,
+   "type": "M"
+  },
+  "M031": {
+   "air_share": 0.1154,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 260,
+   "phase_mute_share": 0.1154,
+   "plausible": false,
+   "reference_vx": 39.0,
+   "type": "M"
+  },
+  "M046": {
+   "air_share": 0.1333,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 210,
+   "phase_mute_share": 0.0333,
+   "plausible": true,
+   "reference_vx": 14.0,
+   "type": "M"
+  },
+  "M054": {
+   "air_share": 0.5306,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 147,
+   "phase_mute_share": 0.0,
+   "plausible": true,
+   "reference_vx": 15.0,
+   "type": "M"
+  },
+  "M056": {
+   "air_share": 0.368,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 231,
+   "phase_mute_share": 0.0,
+   "plausible": true,
+   "reference_vx": 14.0,
+   "type": "M"
+  },
+  "M067": {
+   "air_share": 0.6591,
+   "clusters_loose": 1,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 1,
+   "clusters_tight": 0,
+   "nodes": 308,
+   "phase_mute_share": 0.0032,
+   "plausible": true,
+   "reference_vx": 8.0,
+   "type": "M"
+  },
+  "M068": {
+   "air_share": 0.4476,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 105,
+   "phase_mute_share": 0.0,
+   "plausible": true,
+   "reference_vx": 15.0,
+   "type": "M"
+  },
+  "M069": {
+   "air_share": 0.8416,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 2,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 322,
+   "phase_mute_share": 0.6677,
+   "plausible": false,
+   "reference_vx": 24.0,
+   "type": "M"
+  },
+  "M071": {
+   "air_share": 1.0,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 198,
+   "phase_mute_share": 1.0,
+   "plausible": true,
+   "reference_vx": 15.0,
+   "type": "M"
+  },
+  "M090": {
+   "air_share": 0.3942,
+   "clusters_loose": 1,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 1,
+   "clusters_tight": 1,
+   "nodes": 208,
+   "phase_mute_share": 0.0,
+   "plausible": true,
+   "reference_vx": 6.0,
+   "type": "M"
+  },
+  "M092": {
+   "air_share": 0.3935,
+   "clusters_loose": 1,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 216,
+   "phase_mute_share": 0.0046,
+   "plausible": true,
+   "reference_vx": 8.0,
+   "type": "M"
+  },
+  "M094": {
+   "air_share": 0.7286,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 140,
+   "phase_mute_share": 0.2929,
+   "plausible": false,
+   "reference_vx": 24.0,
+   "type": "M"
+  },
+  "S027": {
+   "air_share": 0.2898,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 176,
+   "phase_mute_share": 0.0,
+   "plausible": true,
+   "reference_vx": 14.0,
+   "type": "S"
+  },
+  "S029": {
+   "air_share": 0.2128,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 343,
+   "phase_mute_share": 0.0525,
+   "plausible": false,
+   "reference_vx": 39.0,
+   "type": "S"
+  },
+  "S041": {
+   "air_share": 0.1,
+   "clusters_loose": 0,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 0,
+   "clusters_tight": 0,
+   "nodes": 160,
+   "phase_mute_share": 0.0125,
+   "plausible": true,
+   "reference_vx": 24.0,
+   "type": "S"
+  },
+  "S044": {
+   "air_share": 0.18,
+   "clusters_loose": 1,
+   "clusters_phase_diag": 0,
+   "clusters_primary": 1,
+   "clusters_tight": 1,
+   "nodes": 100,
+   "phase_mute_share": 0.03,
+   "plausible": false,
+   "reference_vx": 14.0,
+   "type": "S"
+  },
+  "S063": {
+   "air_share": 0.115,
+   "clusters_loose": 1,
+   "clusters_phase_diag": 1,
+   "clusters_primary": 1,
+   "clusters_tight": 1,
+   "nodes": 200,
+   "phase_mute_share": 0.07,
+   "plausible": false,
+   "reference_vx": 24.0,
+   "type": "S"
+  }
+ },
+ "phase_diag_covered": {
+  "by_type": {
+   "M": 11,
+   "S": 2
+  },
+  "ids": [
+   "M002",
+   "M010",
+   "M011",
+   "M013",
+   "M019",
+   "M031",
+   "M056",
+   "M067",
+   "M069",
+   "M090",
+   "M092",
+   "S029",
+   "S063"
+  ],
+  "n": 13
+ },
+ "pooled_reference_vx": 15.0,
+ "probe": "trace phase vs CT layering (U-018 localisation): thick run >= 2x pristine median AND trace centred in the run; surplus vs pristine cells, probe_ct construction",
+ "references_vx": {
+  "20260701183124-w010-027": 15.0,
+  "20260701183125-w028-037": 14.0,
+  "20260701183126-w038-045": 39.0,
+  "20260701183128-w053-058": 9.0,
+  "20260701183129-w059-063": 17.0,
+  "20260701183130-w064-068": 15.0,
+  "20260701183131-w069-072": 6.0,
+  "20260701183133-w077-080": 8.0,
+  "20260701183134-w081-084": 50.0,
+  "20260701183135-w085-088": 24.0,
+  "20260701183136-w089-091": 15.0,
+  "20260701183137-w092-094": 15.0,
+  "20260701183139-w098-100": 14.0
+ },
+ "surplus_min": 0.5,
+ "thick_rel_floor": 2.0,
+ "threshold": 80.0
+}

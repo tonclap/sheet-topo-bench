@@ -1,0 +1,75 @@
+{
+ "bands": "all",
+ "cells": {
+  "rayinv": {
+   "atlas_cells": 8,
+   "corrupted_cells": 8
+  },
+  "selfx": {
+   "atlas_cells": 7807,
+   "corrupted_cells": 7838
+  }
+ },
+ "corpus": "E:\\VSCode\\media-banger-repos\\vesuvius-progress-prize\\output\\topo\\corpus_0139",
+ "rayinv_atlas": {
+  "candidates": 0,
+  "metrics": {
+   "ap": 0.0,
+   "delta_erl_mm": 0.0,
+   "erl_after_cuts_mm": 66.9129366392189,
+   "erl_broken_mm": 66.9129366392189,
+   "recall_at_n": 0.0
+  },
+  "recall_by_type": {
+   "H": 0.0,
+   "M": 0.0,
+   "S": 0.0
+  }
+ },
+ "rayinv_raw": {
+  "candidates": 5,
+  "metrics": {
+   "ap": 0.0,
+   "delta_erl_mm": 0.0,
+   "erl_after_cuts_mm": 66.9129366392189,
+   "erl_broken_mm": 66.9129366392189,
+   "recall_at_n": 0.0
+  },
+  "recall_by_type": {
+   "H": 0.0,
+   "M": 0.0,
+   "S": 0.0
+  }
+ },
+ "scoped_injections": 300,
+ "selfx_atlas": {
+  "candidates": 10,
+  "metrics": {
+   "ap": 0.010703703703703705,
+   "delta_erl_mm": 0.00529294597056662,
+   "erl_after_cuts_mm": 66.91822958518947,
+   "erl_broken_mm": 66.9129366392189,
+   "recall_at_n": 0.016666666666666666
+  },
+  "recall_by_type": {
+   "H": 0.02,
+   "M": 0.0,
+   "S": 0.03
+  }
+ },
+ "selfx_raw": {
+  "candidates": 649,
+  "metrics": {
+   "ap": 0.0005095008334604832,
+   "delta_erl_mm": 0.01318720540183449,
+   "erl_after_cuts_mm": 66.92612384462073,
+   "erl_broken_mm": 66.9129366392189,
+   "recall_at_n": 0.006666666666666667
+  },
+  "recall_by_type": {
+   "H": 0.01,
+   "M": 0.01,
+   "S": 0.0
+  }
+ }
+}

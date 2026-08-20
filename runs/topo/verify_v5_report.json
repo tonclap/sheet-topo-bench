@@ -1,0 +1,120 @@
+{
+ "V1_permutation": {
+  "aps": {
+   "max": 0.8324078018495008,
+   "median": 0.6336049580044241,
+   "p95": 0.7935087695571219
+  },
+  "criterion": "p95 < 0.82",
+  "passed": true
+ },
+ "V2_label_free": {
+  "family_maxnorm": {
+   "ap": 0.6797931859709652,
+   "delta_vs_v1": [
+    0.035685967472849175,
+    0.01741522147874756,
+    0.056531682597034595
+   ],
+   "recall_at_n": 0.6982758620689655,
+   "significant": true
+  },
+  "family_zscore": {
+   "ap": 0.6727374349199025,
+   "delta_vs_v1": [
+    0.0284693566026707,
+    0.010719420287442414,
+    0.04894048481327233
+   ],
+   "recall_at_n": 0.7025862068965517,
+   "significant": true
+  },
+  "global_mass": {
+   "ap": 0.7436149467552886,
+   "delta_vs_v1": [
+    0.09935920661076716,
+    0.08205469030386599,
+    0.1196887789840794
+   ],
+   "recall_at_n": 0.7327586206896551,
+   "significant": true
+  }
+ },
+ "V3_block_split": {
+  "ap": 0.857845046620196,
+  "blocks": [
+   [
+    10,
+    59
+   ],
+   [
+    64,
+    85
+   ],
+   [
+    89,
+    98
+   ]
+  ],
+  "criterion": "paired delta AP vs v1 significantly > 0",
+  "delta_vs_v1": [
+   0.21392089295439076,
+   0.19070531300794358,
+   0.23938757119645107
+  ],
+  "passed": true,
+  "recall_at_n": 0.8448275862068966
+ },
+ "V4_lambda": {
+  "rows": {
+   "0.25": {
+    "ap": 0.8560480824185457,
+    "shift": 0.00021742946197655932
+   },
+   "4.0": {
+    "ap": 0.8543662269015043,
+    "shift": -0.0014644260550648047
+   }
+  },
+  "stable": true
+ },
+ "V5_feature_ablation": {
+  "intercepts_only": {
+   "ap": 0.8255133877860574
+  },
+  "no_vjump": {
+   "ap": 0.8555149486339192
+  },
+  "shared_mass_slope": {
+   "ap": 0.8523778190607625
+  }
+ },
+ "V6_transfer_0139": {
+  "criterion": "transfer AP >= frozen v1 0139 AP",
+  "passed": true,
+  "transfer_ap": 0.8729742695147329,
+  "transfer_recall": 0.86,
+  "transfer_recall_by_type": {
+   "H": 0.96,
+   "M": 0.78,
+   "S": 0.84
+  },
+  "v1_ap": 0.6468092771420585,
+  "v1_recall": 0.7033333333333334
+ },
+ "V7_corpusB": {
+  "criterion": "learned-fusion AP CI lower bound > random IQR high",
+  "frozen_merge_ap": 0.0011576357843798247,
+  "learned_fusion_ap": 0.03325443104263646,
+  "learned_fusion_ci": [
+   0.026137594765532596,
+   0.04076605448824091
+  ],
+  "passed": true,
+  "random_iqr_hi": 0.0005769102970769355,
+  "support_alone_ap": 0.032969640280479925
+ },
+ "declaration": "about/tasks/TOPO-037.md, committed before run",
+ "v1_dev_ap": 0.6442417004624825,
+ "v5lu_dev_ap": 0.8558306529565691
+}

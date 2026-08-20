@@ -1,0 +1,75 @@
+{
+ "bands": "dev",
+ "cells": {
+  "rayinv": {
+   "atlas_cells": 12039,
+   "corrupted_cells": 12960
+  },
+  "selfx": {
+   "atlas_cells": 42012,
+   "corrupted_cells": 43192
+  }
+ },
+ "corpus": "E:\\VSCode\\media-banger-repos\\vesuvius-progress-prize\\output\\topo\\corpus_paris4",
+ "rayinv_atlas": {
+  "candidates": 194,
+  "metrics": {
+   "ap": 0.0729459376061093,
+   "delta_erl_mm": 0.07573016203832594,
+   "erl_after_cuts_mm": 433.0849042759901,
+   "erl_broken_mm": 433.00917411395176,
+   "recall_at_n": 0.24568965517241378
+  },
+  "recall_by_type": {
+   "H": 0.45454545454545453,
+   "M": 0.0379746835443038,
+   "S": 0.25
+  }
+ },
+ "rayinv_raw": {
+  "candidates": 5305,
+  "metrics": {
+   "ap": 0.006413441416091636,
+   "delta_erl_mm": 0.02244544609050081,
+   "erl_after_cuts_mm": 433.03161956004226,
+   "erl_broken_mm": 433.00917411395176,
+   "recall_at_n": 0.034482758620689655
+  },
+  "recall_by_type": {
+   "H": 0.09090909090909091,
+   "M": 0.0,
+   "S": 0.013157894736842105
+  }
+ },
+ "scoped_injections": 232,
+ "selfx_atlas": {
+  "candidates": 203,
+  "metrics": {
+   "ap": 0.12142200788309317,
+   "delta_erl_mm": 0.0805678776489458,
+   "erl_after_cuts_mm": 433.0897419916007,
+   "erl_broken_mm": 433.00917411395176,
+   "recall_at_n": 0.27586206896551724
+  },
+  "recall_by_type": {
+   "H": 0.45454545454545453,
+   "M": 0.0379746835443038,
+   "S": 0.34210526315789475
+  }
+ },
+ "selfx_raw": {
+  "candidates": 12203,
+  "metrics": {
+   "ap": 0.003214856646829496,
+   "delta_erl_mm": 0.012369825104258325,
+   "erl_after_cuts_mm": 433.021543939056,
+   "erl_broken_mm": 433.00917411395176,
+   "recall_at_n": 0.04310344827586207
+  },
+  "recall_by_type": {
+   "H": 0.09090909090909091,
+   "M": 0.0,
+   "S": 0.039473684210526314
+  }
+ }
+}

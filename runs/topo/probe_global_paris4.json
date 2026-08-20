@@ -1,0 +1,67 @@
+{
+ "bands": "dev",
+ "coverage": {
+  "rayinv": {
+   "M_missed_by_v1": {
+    "covered": 1,
+    "n": 36,
+    "share": 0.0278
+   },
+   "all": {
+    "covered": 58,
+    "n": 232,
+    "share": 0.25
+   },
+   "clusters_total": 194,
+   "missed_by_v1": {
+    "covered": 11,
+    "n": 70,
+    "share": 0.1571
+   },
+   "plausible": {
+    "covered": 8,
+    "n": 82,
+    "share": 0.0976
+   },
+   "plausible_missed_by_v1": {
+    "covered": 2,
+    "n": 32,
+    "share": 0.0625
+   }
+  },
+  "selfx": {
+   "M_missed_by_v1": {
+    "covered": 0,
+    "n": 36,
+    "share": 0.0
+   },
+   "all": {
+    "covered": 67,
+    "n": 232,
+    "share": 0.2888
+   },
+   "clusters_total": 203,
+   "missed_by_v1": {
+    "covered": 8,
+    "n": 70,
+    "share": 0.1143
+   },
+   "plausible": {
+    "covered": 13,
+    "n": 82,
+    "share": 0.1585
+   },
+   "plausible_missed_by_v1": {
+    "covered": 1,
+    "n": 32,
+    "share": 0.0312
+   }
+  }
+ },
+ "margins": [
+  2,
+  8
+ ],
+ "n_injections": 232,
+ "v1_found": 162
+}
