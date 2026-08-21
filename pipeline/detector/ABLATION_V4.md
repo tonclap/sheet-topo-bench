@@ -14,4 +14,4 @@ _Dev corpus, N=232; 95 % bootstrap intervals over injections (2000 resamples, se
 | Δ v3uq (quotas) − v1 | +0.040 [+0.02–+0.06] **significant** | +0.025 [-0.02–+0.07] | -0.120 [-0.20–-0.05] **significant** | -0.038 [-0.09–+0.01] | +0.233 [+0.14–+0.33] **significant** | -0.061 [-0.12–-0.01] **significant** |
 | Δ v3uq − v3u | +0.018 [+0.01–+0.02] **significant** | +0.038 [-0.02–+0.09] | -0.106 [-0.19–-0.03] **significant** | -0.089 [-0.15–-0.03] **significant** | +0.311 [+0.21–+0.42] **significant** | -0.111 [-0.19–-0.04] **significant** |
 
-In one line: quotas restore H (ΔH +0.233 [+0.14–+0.33]) and give ΔAP +0.0404 [+0.02–+0.06], but they pay significantly: ΔS -0.120 [-0.20–-0.05]; Δplausible -0.061 [-0.12–-0.01] — by the shipping rule this does not pass.
+In one line: quotas restore H (ΔH +0.233 [+0.14–+0.33]) and give ΔAP +0.0404 [+0.02–+0.06], but they pay significantly: ΔS -0.120 [-0.20–-0.05]; Δplausible -0.061 [-0.12–-0.01] — the shipping rule is **FAILED**.

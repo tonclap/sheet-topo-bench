@@ -4,14 +4,14 @@
   {
    "path": "README.md",
    "source": "pipeline/benchmark/README.md",
-   "sha256": "2b8bec616caaaa4b2dee8bedeacd94cddd9b4ffc37568ec9de37955a561d0697",
-   "bytes": 35339
+   "sha256": "5d7b057c08574872561b6b074a2b8653ae023f06bf1c599a52079724701807be",
+   "bytes": 36551
   },
   {
    "path": "READING_GUIDE.md",
    "source": "pipeline/benchmark/READING_GUIDE.md",
-   "sha256": "9425db95cc93b939baf2f44c9957a74b9cff80586de96d41a12e774ff9365de0",
-   "bytes": 12789
+   "sha256": "91e6a21b142119b27c1d96d9ad5304d86f540896d83c5a5e41ead2f7dd49902b",
+   "bytes": 13122
   },
   {
    "path": "verify.py",
@@ -280,32 +280,32 @@
   {
    "path": "pipeline/detector/ablation_summary_v4.py",
    "source": "pipeline/detector/ablation_summary_v4.py",
-   "sha256": "65f511b3c7898beefe6ca3629b71a3b7e4d94b277a3aaa59f75fe00376b83990",
-   "bytes": 7150
+   "sha256": "b04b3fda4a4d5bbb65fa3623ddc0320113ac5b532c1603537ccac939b2ac4cf1",
+   "bytes": 7378
   },
   {
    "path": "pipeline/detector/ablation_summary_v5.py",
    "source": "pipeline/detector/ablation_summary_v5.py",
-   "sha256": "3f2daa3c28ba02032b873d1e459cc7ddd552c5a7f3cdbcbad2200e06cde8dce1",
-   "bytes": 7773
+   "sha256": "c7c505fda3941315e1b4e1f7c2c9b220b542d077bc1a090d68102abc03115a3a",
+   "bytes": 7962
   },
   {
    "path": "pipeline/detector/ablation_summary_v6.py",
    "source": "pipeline/detector/ablation_summary_v6.py",
-   "sha256": "8a343a7d9fdbb24b2e6ab08320ae9cf8311cb3a66d9cea5aa788187b78a17a54",
-   "bytes": 7843
+   "sha256": "6569c111499b2c8bdc0572527dac57f28c5277d351b4d66e0e533fb854f6034b",
+   "bytes": 8035
   },
   {
    "path": "pipeline/detector/ablation_summary_v6s.py",
    "source": "pipeline/detector/ablation_summary_v6s.py",
-   "sha256": "e139819a2aff489d1024bb24a0ee522e009e4d77269feb18f68cb7b6d335553f",
-   "bytes": 7489
+   "sha256": "dc8a25c4259d08c88265379ee6bb662ec1564b165c3056a68eabfccf3bc4855c",
+   "bytes": 7676
   },
   {
    "path": "pipeline/detector/ablation_summary_v7.py",
    "source": "pipeline/detector/ablation_summary_v7.py",
-   "sha256": "f02794ce116307040f38fb59a4e79c2505b9150b7ed511f1379df5baa558e88e",
-   "bytes": 6348
+   "sha256": "8667308d519f91088415e13f8dcec464f4d0d79bcc51ba0c94f93ecf13ae1aff",
+   "bytes": 6514
   },
   {
    "path": "pipeline/detector/ABLATION_V2.md",
@@ -322,8 +322,8 @@
   {
    "path": "pipeline/detector/ABLATION_V4.md",
    "source": "pipeline/detector/ABLATION_V4.md",
-   "sha256": "3117e2ef8bd800998298655595119d95009d76c15a11d8a7a02df871d2467e1f",
-   "bytes": 2326
+   "sha256": "8be78ea916a5c90da6664034e69695192545a325e22415d87c9fea3534b18327",
+   "bytes": 2318
   },
   {
    "path": "pipeline/detector/ABLATION_V5.md",
@@ -334,20 +334,20 @@
   {
    "path": "pipeline/detector/ABLATION_V6.md",
    "source": "pipeline/detector/ABLATION_V6.md",
-   "sha256": "c00c100bb1644af5d4fd8f24973df88dc6408e6c43684a0f0c080e96c8b07070",
-   "bytes": 8017
+   "sha256": "5b1d7dfaf8d839ffe61c543d985dc5bbde3446f7b07719d904f4d43398208f28",
+   "bytes": 8023
   },
   {
    "path": "pipeline/detector/ABLATION_V6S.md",
    "source": "pipeline/detector/ABLATION_V6S.md",
-   "sha256": "1546a2dd302bde446d6df49af558fd8d2c2c5ed5d408098037cbbe78eaf0de4d",
-   "bytes": 1975
+   "sha256": "230dfe76ef1c58b879e02bdc81732f3952bd3dcbf0c7ebd0bf9353b64f65e6ae",
+   "bytes": 1981
   },
   {
    "path": "pipeline/detector/ABLATION_V7.md",
    "source": "pipeline/detector/ABLATION_V7.md",
-   "sha256": "3a327500fa1806cd4e077eccfbb8ccc067e59ee7435c4afaee38b3639c8a3cc6",
-   "bytes": 1428
+   "sha256": "fb2c16e2b8a7a5e165aa01b450136f42898509d6406cf11d70385a749fc42027",
+   "bytes": 1431
   },
   {
    "path": "pipeline/detector/VERIFY_V5.md",
@@ -382,8 +382,8 @@
   {
    "path": "pipeline/real_errors/RESULTS.md",
    "source": "pipeline/real_errors/RESULTS.md",
-   "sha256": "1ef254abdf3a5ede3a3b02e0e220ecdd5d13272908c63ca88417c26c624865e6",
-   "bytes": 61692
+   "sha256": "b280fedd5dd6ac642bc9adbe07388744c2f810a66b0ad03037aa666b034d999b",
+   "bytes": 69220
   },
   {
    "path": "pipeline/real_errors/ZONES_124.md",
@@ -526,8 +526,8 @@
   {
    "path": "pipeline/real_errors/ZONE_CRITERIA_B.md",
    "source": "pipeline/real_errors/ZONE_CRITERIA_B.md",
-   "sha256": "ba0f84cff0b99eae4923cc777d77322fd52abe74c94df11e071fa9f8088eb435",
-   "bytes": 21261
+   "sha256": "bf7733290579f225a03e85ae6ae1db601897ce8932f4a955973b916e7c0052d7",
+   "bytes": 24675
   },
   {
    "path": "pipeline/real_errors/ZONES_SUPPORT_B.md",
@@ -544,8 +544,8 @@
   {
    "path": "pipeline/real_errors/BUGREPORT_Z0136.md",
    "source": "pipeline/real_errors/BUGREPORT_Z0136.md",
-   "sha256": "1f3ed3ae4b4b9b8c254e17bb502589d4c02884c55b51a5efd042d21f8ea7bcba",
-   "bytes": 5487
+   "sha256": "0a1a128a90c8c5abc6ca597cbef117f1bdb84c432bf31d3310ae8e846ca8902e",
+   "bytes": 9366
   },
   {
    "path": "pipeline/real_errors/zone_labels_b.csv",
@@ -594,6 +594,18 @@
    "source": "pipeline/real_errors/band_zones_b.py",
    "sha256": "5aae36faab79ee97b7887756bfb4652d15492b7bcb61abb8eb91eb5808b3bb3f",
    "bytes": 10533
+  },
+  {
+   "path": "pipeline/real_errors/band_neighbour_rows.py",
+   "source": "pipeline/real_errors/band_neighbour_rows.py",
+   "sha256": "7130a0ba197eff35122db614977e53b780d439f28bddb80ecdf1aa2dacc1ae23",
+   "bytes": 4967
+  },
+  {
+   "path": "pipeline/real_errors/band_row_readout.py",
+   "source": "pipeline/real_errors/band_row_readout.py",
+   "sha256": "5051364382297796751007607bffae9fd116602c4931f14fa28a43ed631a5f9e",
+   "bytes": 6887
   },
   {
    "path": "pipeline/real_errors/density_gate_b.py",

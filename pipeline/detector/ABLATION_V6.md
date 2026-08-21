@@ -17,8 +17,8 @@ _Dev corpus, N=232; 95 % bootstrap intervals over injections (2000 resamples, se
 
 ## The shipping rule against v5lu (detect_v6.py §7)
 
-- **v6l (logit, 14 features)**: ΔAP -0.0745 [-0.10–-0.05]; significant gains: none; Δap -0.074 [-0.10–-0.05]; Δrecall -0.086 [-0.12–-0.05]; ΔS -0.118 [-0.19–-0.05]; ΔM -0.140 [-0.22–-0.07]; Δplausible -0.134 [-0.21–-0.06] — the shipping rule is not met.
-- **v6b (boosting, 14 features)**: ΔAP -0.0624 [-0.09–-0.04]; significant gains: none; Δap -0.062 [-0.09–-0.04]; Δrecall -0.135 [-0.18–-0.09]; ΔS -0.225 [-0.32–-0.13]; ΔM -0.178 [-0.26–-0.09]; Δplausible -0.208 [-0.30–-0.12] — the shipping rule is not met.
+- **v6l (logit, 14 features)**: ΔAP -0.0745 [-0.10–-0.05]; significant gains: none; Δap -0.074 [-0.10–-0.05]; Δrecall -0.086 [-0.12–-0.05]; ΔS -0.118 [-0.19–-0.05]; ΔM -0.140 [-0.22–-0.07]; Δplausible -0.134 [-0.21–-0.06] — the shipping rule is **FAILED**.
+- **v6b (boosting, 14 features)**: ΔAP -0.0624 [-0.09–-0.04]; significant gains: none; Δap -0.062 [-0.09–-0.04]; Δrecall -0.135 [-0.18–-0.09]; ΔS -0.225 [-0.32–-0.13]; ΔM -0.178 [-0.26–-0.09]; Δplausible -0.208 [-0.30–-0.12] — the shipping rule is **FAILED**.
 
 _The v6l_novjump / v6l_thin rows are attribution (§6), not shippable forms; read their Δ as the contribution of the vjump family and of the cluster features respectively._
 

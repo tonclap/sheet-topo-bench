@@ -61,7 +61,7 @@ the shipped run reports.
 | случайность | at chance | indistinguishable from the random baseline |
 | ПРОЙДЕНО / PASS | passed | |
 | НЕ ПРОЙДЕНО / FAIL | failed | |
-| правило отгрузки | shipping rule | significant AP gain **and** no significant loss on any family |
+| правило отгрузки | shipping rule | significant AP gain **and** no significant loss on any family; the ablation summaries print its verdict as **PASSED** / **FAILED** — one pair of words in all five reports (ABLATION_V4/V5/V6/V6S/V7), unified 21.08.2026 |
 | врезка | dated insert | a correction added in place, never a rewrite of what it corrects |
 | гейт | gate | a precondition that had to pass before the run counted |
 | замороженный | frozen | code/parameters fixed before the corpus was opened |

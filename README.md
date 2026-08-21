@@ -323,12 +323,19 @@ protocols (both committed before rendering,
   as drift or noise;
 - **a chain-normal band** along the traced row itself (`band_zones_b.py`,
   s = arc along the chain, n = in-plane normal, CT + prediction panels,
-  banner as witness): **three of the four were slab-projection
+  banner as witness; `band_neighbour_rows.py` runs the same band on a
+  single neighbouring row, `band_row_readout.py` reads the numbers out of
+  it): **three of the four were slab-projection
   artifacts** (the chain holds its sheet along the whole zone), and
-  **one — Z0136 — is a confirmed real 2026 tracing error**: for ~250 vx
-  of arc the row-680 chain runs through dark CT with no predicted surface
-  underneath while the human-verified banner leads the sheet away, blind
-  and control passes both high-confidence.
+  **one — Z0136 — is a confirmed real 2026 tracing error**: over ~250 vx
+  (~2.4 mm) of arc the sheet the row-680 chain was on leaves n = 0
+  downward and does not return, taking the human-verified banner points
+  with it, and a *different* band then arrives at n = 0 and stays; blind
+  and control passes both high-confidence. **This is a claim about the
+  trajectory, not about prediction being missing pointwise** — pointwise
+  the row keeps 0.810 support against 0.932 and 0.772 on its `on_sheet`
+  neighbours, which separates nothing (dated section of
+  [RESULTS.md](pipeline/real_errors/RESULTS.md), 21.08.2026).
 
 Two lessons: the verified address-level yield of
 support on corpus B is **1/57, not 4/57** — and ±6 vx axial slab cards
@@ -368,8 +375,9 @@ richer in real-error candidates than its uncredited ones.*
 
 **Z0136** carries four credits — three automated channels and the band —
 and it is the band that is the decisive evidence: the chain-normal band (crossing, blind and control both
-high-confidence — ~250 vx of arc through dark CT with no recto support
-while the banner leads the sheet away). The other three are the
+high-confidence — over ~250 vx of arc the sheet the chain was on leaves
+n = 0 and does not return, taking the banner with it, and a different
+band arrives; a trajectory reading, not a pointwise one). The other three are the
 corroborating credits — the original support credit (rank 224), a thick
 credit (rank 262), and the best rank of all from the defect channel (52).
 
@@ -523,7 +531,8 @@ CPU only, public data, no credentials.
 - **Zone image cards** (120 MB corpus A; corpus B cards, confirmation
   slabs and chain-normal bands likewise): rendered from shipped maps by
   `render_zones.py` / `render_zones_b.py` / `confirm_zones_b.py` /
-  `band_zones_b.py`; the classifications they fed are shipped in full
+  `band_zones_b.py` / `band_neighbour_rows.py`; the classifications they
+  fed are shipped in full
   ([ZONES_124.md](pipeline/real_errors/ZONES_124.md),
   [zone_labels.csv](pipeline/real_errors/zone_labels.csv),
   [ZONES_SUPPORT_B.md](pipeline/real_errors/ZONES_SUPPORT_B.md),

@@ -149,7 +149,7 @@ def main():
               f'ΔS {s[0]:+.3f} [{s[1]:+.2f}–{s[2]:+.2f}]; '
               f'significant gains: {", ".join(gains) if gains else "none"}; '
               f'{loss_text} — the shipping rule is '
-              + ('**PASSED**.' if passes else 'not met.')]
+              + ('**PASSED**.' if passes else '**FAILED**.')]
 
     text = '\n'.join(lines) + '\n'
     print(text)

@@ -153,9 +153,10 @@ def main():
     h = paired('v3uq (quotas)', base, 'H')
     lines += ['']
     if ap[1] > 0 and not sig_loss:
-        verdict = ('v3uq passes the shipping rule: ΔAP '
+        verdict = ('In one line: v3uq gives ΔAP '
                    f'{ap[0]:+.4f} [{ap[1]:+.2f}–{ap[2]:+.2f}] significant, '
-                   'no significant losses.')
+                   'no significant losses — the shipping rule is '
+                   '**PASSED**.')
     else:
         losses = '; '.join(f'Δ{k} {p:+.3f} [{lo:+.2f}–{hi:+.2f}]'
                            for k, p, lo, hi in sig_loss)
@@ -163,9 +164,9 @@ def main():
                    f'[{h[1]:+.2f}–{h[2]:+.2f}]) and give ΔAP {ap[0]:+.4f} '
                    f'[{ap[1]:+.2f}–{ap[2]:+.2f}], but they pay '
                    + (f'significantly: {losses}' if losses else 'without significant losses')
-                   + ' — by the shipping rule this '
-                   + ('does not pass.' if sig_loss or not ap[1] > 0
-                      else 'passes.'))
+                   + ' — the shipping rule is '
+                   + ('**FAILED**.' if sig_loss or not ap[1] > 0
+                      else '**PASSED**.'))
     lines += [verdict, '']
 
     text = '\n'.join(lines)

@@ -11,4 +11,4 @@ _Dev corpus, N=232; 95 % bootstrap intervals over injections (2000 resamples, se
 
 ## The shipping rule against v5lu (detect_v7.py §5)
 
-- **v7l (pair features on top of v5lu)**: ΔAP -0.0006 [-0.00–+0.00]; ΔS +0.000 [+0.00–+0.00]; significant gains: none; no significant losses — the shipping rule is not met.
+- **v7l (pair features on top of v5lu)**: ΔAP -0.0006 [-0.00–+0.00]; ΔS +0.000 [+0.00–+0.00]; significant gains: none; no significant losses — the shipping rule is **FAILED**.

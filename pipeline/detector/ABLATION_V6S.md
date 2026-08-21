@@ -13,5 +13,5 @@ _Dev corpus, N=232; 95 % bootstrap intervals over injections (2000 resamples, se
 
 ## The shipping rule against v5lu (detect_v6s.py §6)
 
-- **v6s (two-tier prox generation)**: ΔAP +0.0018 [-0.00–+0.01]; significant gains: none; no significant losses — the shipping rule is not met.
-- **v6r (restricted connectivity)**: ΔAP -0.0079 [-0.02–+0.01]; significant gains: none; no significant losses — the shipping rule is not met.
+- **v6s (two-tier prox generation)**: ΔAP +0.0018 [-0.00–+0.01]; significant gains: none; no significant losses — the shipping rule is **FAILED**.
+- **v6r (restricted connectivity)**: ΔAP -0.0079 [-0.02–+0.01]; significant gains: none; no significant losses — the shipping rule is **FAILED**.

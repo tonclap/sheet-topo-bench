@@ -170,7 +170,7 @@ def main():
             f'- **{label}**: ΔAP {ap[0]:+.4f} [{ap[1]:+.2f}–{ap[2]:+.2f}]; '
             f'significant gains: {", ".join(gains) if gains else "none"}; '
             f'{loss_text} — the shipping rule is '
-            + ('**PASSED**.' if passes else 'not met.'))
+            + ('**PASSED**.' if passes else '**FAILED**.'))
 
     text = '\n'.join(lines) + '\n'
     print(text)
