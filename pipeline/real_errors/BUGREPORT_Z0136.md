@@ -171,7 +171,8 @@ the top) — as the last line of the "Details" section:_
 _The disclosure the receiving project's policy asks for is decided together
 with it, at submission time._
 
-_One caveat if the line goes in: the neighbour-row figures (3 and 4) come
-from `band_neighbour_rows.py`, written after the package was published, so
-a reader following the link finds `band_zones_b.py` but not that caller
-until the package is re-released._
+_Caveat lifted 21.08.2026 by the re-release (`a888844`): the neighbour-row
+figures (3 and 4) come from `band_neighbour_rows.py`, and that caller now
+ships with the package alongside `band_zones_b.py`. The sentence in the
+posted issue was updated to say so — the file and the issue are kept in
+step deliberately._
